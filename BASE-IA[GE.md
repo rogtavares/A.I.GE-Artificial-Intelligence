@@ -6,14 +6,14 @@ markmap:
 # Mapa Mental: Inteligência Artificial (IA)
 
 ## 1. **Inteligência Artificial (IA)** (🔵 Azul)
-- 1.1. **Computação Cognitiva**  
-- 1.2. **Toda Ética**  
+- 1.1. **Computação Cognitiva** ( objetivo é criar máquinas capazes de interagir, aprender e tomar decisões de forma mais natural, como se "pensassem" como seres humanos. ) 
+- 1.2. **Ética na IA** (abordagem ética no desenvolvimento e uso de Inteligência Artificial.)
 - 1.3. **Reconhecimento de Fala**  
-- 1.4. **Representação do Conhecimento**  
+- 1.4. **Representação do Conhecimento** (é essencial para conectar dados abstratos e computação,permitindo que a IA funcione de maneira mais próxima do raciocínio humano.) 
 - 1.5. **Planejamento e Agendamento**  
 - 1.6. **Processamento de Linguagem Natural (NLP)**  
 - 1.7. **Visão Computacional**  
-- 1.8. **Sistemas Especialistas**  
+- 1.8. **Sistemas Especialistas**  (são uma classe de software dentro da Inteligência Artificial (IA) projetada para resolver problemas ou tomar decisões em um domínio específico, replicando o conhecimento e a experiência de especialistas humanos)
 - 1.9. **Robótica**  
 - 1.10. **Raciocínio Automatizado**  
 - 1.11. **Lógica Difusa (Fuzzy Logic)**  
