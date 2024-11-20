@@ -10,13 +10,13 @@ markmap:
 ## Índice
 - [GE-Artificial-Intelligence (IA)](#ge-artificial-intelligence-ia)
   - [Índice](#índice)
-  - [1. Fundamentos de IA e ML](#1-fundamentos-de-ia-e-ml)
-  - [2. Terminologias Básicas de IA](#2-terminologias-básicas-de-ia)
+  - [1. Fundamentos de IA🟠 e ML🟡](#1-fundamentos-de-ia-e-ml)
+  - [2. Terminologias Básicas de IA🟠](#2-terminologias-básicas-de-ia)
   - [3. Diferenças entre IA, ML, Deep Learning e IA Generativa](#3-diferenças-entre-ia-ml-deep-learning-e-ia-generativa)
   - [4. Compreendendo o Modelo Base](#4-compreendendo-o-modelo-base)
   - [5. Tipos de Modelos de IA](#5-tipos-de-modelos-de-ia)
   - [6. Machine Learning (ML)🟡](#6-machine-learning-ml)
-  - [7. Pipeline de ML: Componentes com Serviços AWS](#7-pipeline-de-ml-componentes-com-serviços-aws)
+  - [7. Pipeline de ML🟡: Componentes com Serviços AWS](#7-pipeline-de-ml-componentes-com-serviços-aws)
   - [8. Fundamentos de IA Generativa](#8-fundamentos-de-ia-generativa)
   - [9. Aplicações de Modelos Base](#9-aplicações-de-modelos-base)
   - [10. Design e Implementação de Automação de Pipeline](#10-design-e-implementação-de-automação-de-pipeline)
@@ -27,13 +27,13 @@ markmap:
 ---
 
 ## 1. Fundamentos de IA e ML
-- **O que é Inteligência Artificial (IA)?**
+- **O que é Inteligência Artificial (IA)🟠?**
   - IA é o campo da ciência da computação focado no desenvolvimento de sistemas que exibem comportamentos inteligentes.
   - Envolve coleta de dados, seleção de algoritmos, treinamento, teste e implantação.
-- **Arquitetura de Aplicações de IA**
+- **Arquitetura de Aplicações de IA 🟠**
   - Camada de Dados, Modelo e Aplicação.
   
-## 2. Terminologias Básicas de IA
+## 2. Terminologias Básicas de IA 🟠
 - **Machine Learning (ML)**: Algoritmos que melhoram automaticamente com base em dados.
 - **Deep Learning (DL)**: Subconjunto do ML que usa redes neurais profundas.
 - **NLP (Natural Language Processing)**: Tecnologia que permite máquinas entenderem e interagirem com a linguagem humana.
@@ -47,16 +47,15 @@ markmap:
 - **IA Generativa**:🌟 Criação de conteúdo novo (texto, imagem, áudio).
 
 ## 4. Compreendendo o Modelo Base
---  **Redes Neurais (RN)** 🟣: Redes neurais treinadas em grandes dados para serem ajustadas para novas tarefas.
-- **Características**: 
-- Adaptabilidade, generalistas e desafios de integração e custo.
- - 4.1. **Modelo Perceptron**  
- - 4.2. **Perceptron Multicamadas (MLP)**  
-- 4.3. **Funções de Ativação**  
-- 4.4. **Redes Neurais Recorrentes (RNN)**  
-- 4.5. **Dropout** 
+- **Redes Neurais (RN)** 🟣: Redes neurais treinadas em grandes dados para serem ajustadas para novas tarefas.
+- **Características**: 🟣Adaptabilidade, generalistas e desafios de integração e custo.
+  - 4.1. **Modelo Perceptron**  
+  - 4.2. **Perceptron Multicamadas (MLP)**  
+  - 4.3. **Funções de Ativação**  
+  - 4.4. **Redes Neurais Recorrentes (RNN)**  
+  - 4.5. **Dropout** 
 
-## 5. Tipos de Modelos de IA
+## 5. Tipos de Modelos de IA 🟠
 - **Visão Computacional**: Amazon Rekognition.
 - **NLP**: Amazon Comprehend, Amazon Lex.
 - **Reconhecimento de Fala**: Amazon Transcribe.
@@ -83,7 +82,7 @@ markmap:
 - **Treinamento de Modelos**: Amazon SageMaker.
 - **Avaliação e Implantação**: SageMaker Model Monitor, Amazon CloudWatch.
 
-## 8. Fundamentos de IA Generativa
+## 8. Fundamentos de IA Generativa 🌟
 - **Definição**: Criação de conteúdo original usando aprendizado profundo.
 - **Benefícios**: Acelera pesquisa, melhora a experiência do cliente e otimiza operações.
   - 8.1. **Geração de Conteúdo e Ideias**  
@@ -109,7 +108,7 @@ markmap:
 - **Práticas**: Justa, transparente, privada e confiável.
 - **Ferramentas**: SageMaker Clarify para detecção de viés e explicações de previsões.
 
-## 12. Serviços de IA Gerenciados pela AWS
+## 12. Serviços de IA 🟠 Gerenciados pela AWS
 - **Amazon Polly**: Texto para fala.
 - **Amazon Rekognition**: Análise de imagens e vídeos.
 - **Amazon Transcribe**: Transcrição de fala em texto.
