@@ -1,2 +1,6 @@
-estudando para tirar a certificação AWS Certified AI Practitioner valida o conhecimento requisitado sobre inteligência artificial, machine learning (ML) e conceitos e casos de uso de IA generativa. 
+As informações fornecidas nesta MAPA são para fins educacionais; criadas para ajudar os
+candidatos a se prepararem para o Exame AWS AI Practitioner.
+Embora referências tenham sido retiradas da documentação oficial da AWS, este material não
+substitui os documentos oficiais.
 
+Ge tavares, v1 

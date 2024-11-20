@@ -3,9 +3,9 @@
 title: markmap
 markmap:
   colorFreezeLevel: 8 
-# Mapa Mental: Inteligência Artificial (IA)
+# GE-Artificial-Intelligence (IA)
 
-## 1. **Inteligência Artificial (IA)** (🔵 Azul)
+## 1. **Inteligência Artificial (IA)** 🟠 
 - 1.1. **Computação Cognitiva** ( objetivo é criar máquinas capazes de interagir, aprender e tomar decisões de forma mais natural, como se "pensassem" como seres humanos. ) 
 - 1.2. **Ética na IA** (abordagem ética no desenvolvimento e uso de Inteligência Artificial.)
 - 1.3. **Reconhecimento de Fala**  
@@ -20,7 +20,7 @@ markmap:
 
 ---
 
-## 2. **Machine Learning (ML)** (🟡 Amarelo)
+## 2. **Machine Learning (ML)** 🟡
 - 2.1. **Aprendizado Supervisionado**  
 - 2.2. **Aprendizado Não Supervisionado**  
 - 2.3. **Aprendizado Semi-Supervisionado**  
@@ -34,7 +34,7 @@ markmap:
 - 2.11. **Árvores de Decisão**  
 - 2.12. **Redução de Dimensionalidade**
 
-## 3. **Redes Neurais (RN)** (🟣 Roxo)
+## 3. **Redes Neurais (RN)** 🟣
 - 3.1. **Modelo Perceptron**  
 - 3.2. **Perceptron Multicamadas (MLP)**  
 - 3.3. **Funções de Ativação**  
@@ -49,7 +49,7 @@ markmap:
 
 > **Redes Neurais Profundas** consistem em várias camadas ocultas. O aprendizado profundo (Deep Learning) utiliza redes profundas para tarefas avançadas.
 
-## 4. **Deep Learning (DL)** (🟠 Laranja)
+## 4. **Deep Learning (DL)** 🔵
 
 - 4.1. **Subconjunto do ML**  
 - 4.2. **Grandes Quantidades de Dados**  
@@ -66,7 +66,7 @@ markmap:
 
 ---
 
-## 5. **IA Generativa** (🌟)
+## 5. **IA Generativa** 🌟
 - 5.1. **Geração de Conteúdo e Ideias**  
 - 5.2. **Aumentando a Produtividade**  
 - 5.3. **Personalização de Experiências**  
