@@ -9,7 +9,7 @@ markmap:
 
 ## Índice
 - [GE-Artificial-Intelligence (IA)](#ge-artificial-intelligence-ia)
-  - [Índice](#índice)
+  - **Índice**
   - [1. Fundamentos de IA🟠 e ML🟡](#1-fundamentos-de-ia-e-ml)
   - [2. Terminologias Básicas de IA🟠](#2-terminologias-básicas-de-ia)
   - [3. Diferenças entre IA, ML, Deep Learning e IA Generativa](#3-diferenças-entre-ia-ml-deep-learning-e-ia-generativa)
@@ -17,7 +17,7 @@ markmap:
   - [5. Tipos de Modelos de IA](#5-tipos-de-modelos-de-ia)
   - [6. Machine Learning (ML)🟡](#6-machine-learning-ml)
   - [7. Pipeline de ML🟡: Componentes com Serviços AWS](#7-pipeline-de-ml-componentes-com-serviços-aws)
-  - [8. Fundamentos de IA Generativa](#8-fundamentos-de-ia-generativa)
+  - [8. Fundamentos de IA Generativa🌟](#8-fundamentos-de-ia-generativa)
   - [9. Aplicações de Modelos Base](#9-aplicações-de-modelos-base)
   - [10. Design e Implementação de Automação de Pipeline](#10-design-e-implementação-de-automação-de-pipeline)
   - [11. IA Responsável](#11-ia-responsável)
@@ -27,17 +27,17 @@ markmap:
 ---
 
 ## 1. Fundamentos de IA e ML
-- **O que é Inteligência Artificial (IA)🟠?**
+- **O que é Inteligência Artificial (IA)?🟠**
   - IA é o campo da ciência da computação focado no desenvolvimento de sistemas que exibem comportamentos inteligentes.
   - Envolve coleta de dados, seleção de algoritmos, treinamento, teste e implantação.
 - **Arquitetura de Aplicações de IA 🟠**
   - Camada de Dados, Modelo e Aplicação.
   
 ## 2. Terminologias Básicas de IA 🟠
-- **Machine Learning (ML)**: Algoritmos que melhoram automaticamente com base em dados.
-- **Deep Learning (DL)**: Subconjunto do ML que usa redes neurais profundas.
+- **Machine Learning (ML)🟠**: Algoritmos que melhoram automaticamente com base em dados.
+- **Deep Learning (DL)🔵**: Subconjunto do ML que usa redes neurais profundas.
 - **NLP (Natural Language Processing)**: Tecnologia que permite máquinas entenderem e interagirem com a linguagem humana.
-- **IA Responsável**: Práticas éticas que garantem que a IA seja justa, transparente e segura.
+- **IA Responsável 🌟**: Práticas éticas que garantem que a IA seja justa, transparente e segura.
 
 ## 3. Diferenças entre IA, ML, Deep Learning e IA Generativa
 - **IA**:🟠 Campo amplo da ciência de dados.
@@ -48,6 +48,7 @@ markmap:
 
 ## 4. Compreendendo o Modelo Base
 - **Redes Neurais (RN)** 🟣: Redes neurais treinadas em grandes dados para serem ajustadas para novas tarefas.
+  - Estruturas inspiradas no cérebro humano para processamento. 
 - **Características**: 🟣Adaptabilidade, generalistas e desafios de integração e custo.
   - 4.1. **Modelo Perceptron**  
   - 4.2. **Perceptron Multicamadas (MLP)**  
@@ -105,17 +106,76 @@ markmap:
 - **Monitoramento**: Detecção de desvios de desempenho usando SageMaker.
 
 ## 11. IA Responsável
-- **Práticas**: Justa, transparente, privada e confiável.
-- **Ferramentas**: SageMaker Clarify para detecção de viés e explicações de previsões.
+## 2.0 Ética na IA  
+
+- **Práticas**: Questões morais e éticas no uso da IA.  
+- Transparência, responsabilidade e impacto social. 
+- Justa, transparente, privada e confiável.
+  - **Ferramentas**: **SageMaker Clarify** para detecção de viés e explicações de previsões.
 
 ## 12. Serviços de IA 🟠 Gerenciados pela AWS
-- **Amazon Polly**: Texto para fala.
-- **Amazon Rekognition**: Análise de imagens e vídeos.
-- **Amazon Transcribe**: Transcrição de fala em texto.
-- **Amazon Translate**: Tradução de texto.
+### 12.1 Amazon Augmented AI (A2I)  
+- Análise humana de sistemas de ML para auditoria e precisão.  
+
+### 12.2 Amazon Bedrock  
+- Acesso a modelos de base (FMs) para IA generativa via API única.  
+
+### 12.3 Amazon Comprehend  
+- Extração de insights de texto.  
+
+### 12.4 AWS DeepLens  
+- Câmera para implementar modelos de visão computacional.  
+
+### 12.5 Amazon Fraud Detector  
+- Detecção de fraudes online com ML.  
+
+### 12.6 Amazon Forecast  
+- Previsão de resultados de negócios usando ML.  
+
+### 12.7 AWS Glue DataBrew  
+- Limpeza e transformação de dados para análises e ML.  
+
+### 12.8 Amazon Kendra  
+- Experiências de conversação seguras com IA generativa.  
+
+### 12.9 Amazon Lex  
+- Bots conversacionais com interfaces de voz e texto.  
+
+### 12.10 Amazon Polly  
+- Vozes humanas realistas para múltiplos idiomas.  
+
+### 12.11 Amazon Personalize  
+- Recomendação personalizada em tempo real.  
+
+### 12.12 Amazon Q  
+
+- **Amazon Q Developer:** Assistente para desenvolvimento e manutenção de software.
+- - **Amazon Q Business:** Assistente para consultas e geração de conteúdo.    
+
+### 12.13 Amazon Rekognition  
+- Reconhecimento de imagens e vídeos.  
+
+### 12.14 Amazon SageMaker  
+- Criação, treinamento e implantação de modelos de ML gerenciados.  
+
+### 12.15 Amazon Textract  
+- Extração automática de texto e dados de documentos.  
+
+### 12.16 Amazon Transcribe  
+- Conversão automática de voz em texto.  
+
+### 12.17 Amazon Translate  
+- Tradução automática fluente e precisa.  
+
+### 12.18 AWS Panorama  
+- Processamento de vídeo local em tempo real.  
+
+## 12.0 Robótica  
+- Aplicações de IA em automação e robôs inteligentes.  
 
 ## 13. Segurança, Conformidade e Governança para Soluções de IA
 - **Amazon Macie**: Proteção de dados sensíveis.
-- **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA.
+       Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
+- **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v6
+ge tavares v7
