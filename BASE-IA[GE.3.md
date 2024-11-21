@@ -32,6 +32,11 @@ markmap:
   - Envolve coleta de dados, seleção de algoritmos, treinamento, teste e implantação.
 - **Arquitetura de Aplicações de IA 🟠**
   - Camada de Dados, Modelo e Aplicação.
+     
+     - Camada de Dados: Organiza e prepara os dados para uso.
+     - Camada de Modelo: Responsável pelas decisões do sistema, usando modelos treinados.
+     - Camada de Aplicação: Interface com o usuário, que permite interagir com o sistema.
+ 
   
 ## 2. Terminologias Básicas de IA 🟠
 - **Machine Learning (ML)🟠**: Algoritmos que melhoram automaticamente com base em dados.
