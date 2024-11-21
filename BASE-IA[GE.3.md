@@ -106,12 +106,11 @@ markmap:
 - **Monitoramento**: Detecção de desvios de desempenho usando SageMaker.
 
 ## 11. IA Responsável
-## 2.0 Ética na IA  
 
 - **Práticas**: Questões morais e éticas no uso da IA.  
 - Transparência, responsabilidade e impacto social. 
-- Justa, transparente, privada e confiável.
-  - **Ferramentas**: **SageMaker Clarify** para detecção de viés e explicações de previsões.
+
+- **Ferramentas**: **SageMaker Clarify** para detecção de viés e explicações de previsões.
 
 ## 12. Serviços de IA 🟠 Gerenciados pela AWS
 ### 12.1 Amazon Augmented AI (A2I)  
