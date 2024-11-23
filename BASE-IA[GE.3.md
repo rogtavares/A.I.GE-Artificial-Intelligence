@@ -7,12 +7,9 @@ markmap:
 
 
 
-#
+## [TODOS SERVIÇOS AWS GÉTAVARES](https://rogtavares.github.io/mapamentalSAA-C03_getavares.github.io/)
 
 
--## AWS Services Reference
-- [AWS Services - GÉTAVARES ](https://rogtavares.github.io/mapamentalSAA-C03_getavares.github.io/)
---
 
 ## 1. Fundamentos de IA e ML
 - **O que é Inteligência Artificial (IA)?🟠**
