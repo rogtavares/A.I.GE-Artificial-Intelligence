@@ -24,9 +24,11 @@ markmap:
  
   
 ## 2. Terminologias Básicas de IA 🟠
-- **Machine Learning (ML)🟠**: Algoritmos que melhoram automaticamente com base em dados.
+- **Machine Learning (ML)**: Algoritmos que melhoram automaticamente com base em dados.
 - **Deep Learning (DL)🔵**: Subconjunto do ML que usa redes neurais profundas.
 - **NLP (Natural Language Processing)**: Tecnologia que permite máquinas entenderem e interagirem com a linguagem humana.
+- **LLMs  Large Language Models** são aqueles voltados para processamento de linguagem natural **(NLP)**, **IA generativa** e **Machine Leaning(ML)**
+
 - **IA Responsável 🌟**: Práticas éticas que garantem que a IA seja justa, transparente e segura.
 
 ## 3. Diferenças entre IA, ML, Deep Learning e IA Generativa
@@ -61,7 +63,7 @@ markmap:
   - 5.9. **Aprendizagem em Conjunto**  
   - 5.8. Máquinas de Vetores de Suporte (SVM)
   -   - 5.11.**Árvores de Decisão**  
-- 2.12. **Redução de Dimensionalidade**
+
 
 ## 6. O Que é Tecnologia LLM?
  - **LLM significa Large Language Model (Grande Modelo de Linguagem)**. 
@@ -135,7 +137,7 @@ markmap:
 ### 12.5 Amazon Fraud Detector  
 - Detecção de fraudes online com ML.  
 
-### 12.5 Amazon Forecast  
+### 12.6 Amazon Forecast  
 - Previsão de resultados de negócios usando ML.  
 
 ### 12.7 AWS Glue DataBrew  
@@ -147,7 +149,7 @@ markmap:
 ### 12.9 Amazon Lex  
 - Bots conversacionais com interfaces de voz e texto.  
 
-### 12.8 Amazon Polly  
+### 12.10 Amazon Polly  
 - Vozes humanas realistas para múltiplos idiomas.  
 
 ### 12.11 Amazon Personalize  
@@ -161,7 +163,7 @@ markmap:
 ### 12.13 Amazon Rekognition  
 - Reconhecimento de imagens e vídeos.  
 
-### 12.12 Amazon SageMaker  
+### 12.14 Amazon SageMaker  
 - Criação, treinamento e implantação de modelos de ML gerenciados.  
 
 ### 12.15 Amazon Textract  
@@ -176,12 +178,32 @@ markmap:
 ### 12.18 AWS Panorama  
 - Processamento de vídeo local em tempo real.  
 
-## 13. 0 Robótica  
-- Aplicações de IA em automação e robôs inteligentes.  
+## 13. Serviços que utilizam ou suportam LLMs diretamente:
+
+- **12.2 Amazon Bedrock**
+Por que está relacionado a **LLMs**?
+**É uma das soluções mais diretas da AWS para LLMs. Permite acessar modelos de linguagem pré-treinados e IA generativa** (como GPT, Claude, e Llama 2) via uma API única, facilitando a integração com aplicações de negócios.
+- **12.3 Amazon Comprehend**
+Por que está relacionado a **LLMs**?
+Focado em extração de insights de texto, como análise de sentimentos, classificação de documentos e extração de entidades. Internamente, pode ser baseado em LLMs menores para tarefas específicas de NLP.
+- **12.9 Amazon Lex**
+Por que está relacionado a **LLMs**?
+Usa modelos de linguagem para criar bots conversacionais (chatbots e voicebots). Integra-se com LLMs para melhorar o entendimento e as respostas contextuais.
+- **12.14 Amazon SageMaker**
+Por que está relacionado a **LLMs**?
+Oferece infraestrutura completa para treinar, ajustar (fine-tune) e implantar LLMs. É amplamente utilizado para personalizar modelos para casos de uso específicos, como geração de conteúdo ou análise de dados.
+   - Serviços complementares a **LLMs**:
+Esses serviços não são LLMs diretamente, mas podem ser integrados ou usados para habilitar funcionalidades específicas:
+
+  - **12.13 Amazon Rekognition**: Integra reconhecimento de imagens/vídeos a aplicações baseadas em LLMs, como assistentes multimodais.
+ - **12.6 Amazon Forecast**: Utiliza ML para previsões, que podem ser aprimoradas com insights gerados por LLMs.
+ - **12.5 Amazon Fraud Detector**: Modelos especializados em detecção de fraudes podem usar dados analisados por LLMs para enriquecer insights.
+ - **12.15 Amazon Textract**: Extrai texto estruturado de documentos que pode ser processado posteriormente por LLMs para análises detalhadas.
+ - **12.16 Amazon Transcribe** e **14.17 Amazon Translate**: Resultados de transcrição e tradução podem ser alimentados a LLMs para análise e geração de respostas. 
 
 ## 14. Segurança, Conformidade e Governança para Soluções de IA
 - **Amazon Macie**: Proteção de dados sensíveis.
        Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
 - **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v10
+ge tavares v11
