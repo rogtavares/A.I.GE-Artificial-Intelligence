@@ -46,27 +46,43 @@ markmap:
   - 4.4. **Redes Neurais Recorrentes (RNN)**  
   - 4.5. **Dropout** 
 
-## 5. Tipos de Modelos de IA 🟠
-- **Visão Computacional**: Amazon Rekognition.
-- **NLP**: Amazon Comprehend, Amazon Lex.
-- **Reconhecimento de Fala**: Amazon Transcribe.
-- **IA Generativa**: Amazon Bedrock.
 
-## 6. Machine Learning (ML)🟡
+## 5. Machine Learning (ML)🟡
 - **Definição**: Algoritmos que aprendem a partir de dados para tomar decisões.
 - **Tipos**: 
-  - 6.1. **Aprendizado Supervisionado**  
-  - 6.2. **Aprendizado Não Supervisionado**  
-  - 6.3. **Aprendizado Semi-Supervisionado**  
-  - 6.4. **Aprendizado por Reforço**  
-  - 6.5. **Agrupamento (Clustering)**  
-  - 6.6. **Classificação**  
-  - 6.7. **Regressão**  
-  - 6.8. **Engenharia de Recursos**  
-  - 6.9. **Aprendizagem em Conjunto**  
-  - 6.10. Máquinas de Vetores de Suporte (SVM)
-  -   - 6.11.**Árvores de Decisão**  
+  - 5.1. **Aprendizado Supervisionado**  
+  - 5.2. **Aprendizado Não Supervisionado**  
+  - 5.3. **Aprendizado Semi-Supervisionado**  
+  - 5.4. **Aprendizado por Reforço**  
+  - 5.5. **Agrupamento (Clustering)**  
+  - 5.5. **Classificação**  
+  - 5.7. **Regressão**  
+  - 5.8. **Engenharia de Recursos**  
+  - 5.9. **Aprendizagem em Conjunto**  
+  - 5.8. Máquinas de Vetores de Suporte (SVM)
+  -   - 5.11.**Árvores de Decisão**  
 - 2.12. **Redução de Dimensionalidade**
+
+## 6. O Que é Tecnologia LLM?
+ - **LLM significa Large Language Model (Grande Modelo de Linguagem)**. 
+ - são aqueles voltados para processamento de linguagem natural (NLP), IA generativa e aprendizado de máquina (ML). 
+
+   - Os LLMs são um tipo de modelo de inteligência artificial (IA) projetado para processar e gerar texto semelhante ao humano.
+     - • Eles são treinados em conjuntos de dados massivos de texto e código, permitindo que "aprendam" padrões complexos na linguagem.
+     - • Essa capacidade de aprendizado permite que LLMs realizem uma variedade de tarefas, incluindo: 
+    ○ Geração de Texto: Criar histórias, artigos e outros tipos de conteúdo escrito.
+    ○ Tradução de Idiomas: Traduzir texto de um idioma para outro.
+    ○ Resumo de Texto: Condensar grandes quantidades de texto em resumos concisos.
+    ○ Resposta a Perguntas: Fornecer respostas informativas a perguntas complexas.
+    ○ Assistência à Codificação: Sugerir código e ajudar os desenvolvedores a escrever software.
+       - Os LLMs são uma tecnologia poderosa que está impulsionando a inovação em diversas áreas.
+       - • Chatbots e assistentes virtuais: Simplificam o autoatendimento do cliente e reduzem os custos operacionais, automatizando consultas de atendimento.
+       - • Análise conversacional: Analisam o feedback não estruturado dos clientes para identificar os principais tópicos, detectar sentimentos e revelar tendências emergentes.
+       - • Assistente de funcionários: Ajudam a encontrar informações precisas, obter respostas, resumir e criar conteúdo por meio de uma interface conversacional.
+       - • Geração de código: Aceleram o desenvolvimento de aplicações com sugestões de código baseadas em comentários e códigos do desenvolvedor.
+
+- É importante notar que, embora os LLMs sejam uma tecnologia avançada, eles ainda estão em desenvolvimento e possuem limitações. Por exemplo, os LLMs podem gerar informações imprecisas ("alucinações") ou exibir preconceitos presentes nos dados de treinamento. Por esse motivo, é fundamental usar os LLMs com responsabilidade e estar ciente de suas limitações.
+
 
 ## 7. Pipeline de ML: Componentes com Serviços AWS
 - **Coleta de Dados**: Amazon S3, AWS Glue.
@@ -81,7 +97,7 @@ markmap:
   - 8.3. **Personalização de Experiências**  
   - 8.4. **Avanços em Grandes Modelos de Linguagem (LLMs)**  
   - 8.5. **Integração Multimodal**  
-  - 8.6. **Personalização e Controle Aprimorados**  
+  - 8.5. **Personalização e Controle Aprimorados**  
   - 8.7. **Mitigação Ética e de Preconceitos**  
   - 8.8. **Modelos Generativos Específicos**  
   - 8.9. **Aplicações em Tempo Real**
@@ -104,6 +120,7 @@ markmap:
 
 ## 12. Serviços de IA 🟠 Gerenciados pela AWS
 ### 12.1 Amazon Augmented AI (A2I)  
+
 - Análise humana de sistemas de ML para auditoria e precisão.  
 
 ### 12.2 Amazon Bedrock  
@@ -118,7 +135,7 @@ markmap:
 ### 12.5 Amazon Fraud Detector  
 - Detecção de fraudes online com ML.  
 
-### 12.6 Amazon Forecast  
+### 12.5 Amazon Forecast  
 - Previsão de resultados de negócios usando ML.  
 
 ### 12.7 AWS Glue DataBrew  
@@ -130,7 +147,7 @@ markmap:
 ### 12.9 Amazon Lex  
 - Bots conversacionais com interfaces de voz e texto.  
 
-### 12.10 Amazon Polly  
+### 12.8 Amazon Polly  
 - Vozes humanas realistas para múltiplos idiomas.  
 
 ### 12.11 Amazon Personalize  
@@ -144,7 +161,7 @@ markmap:
 ### 12.13 Amazon Rekognition  
 - Reconhecimento de imagens e vídeos.  
 
-### 12.14 Amazon SageMaker  
+### 12.12 Amazon SageMaker  
 - Criação, treinamento e implantação de modelos de ML gerenciados.  
 
 ### 12.15 Amazon Textract  
@@ -159,12 +176,12 @@ markmap:
 ### 12.18 AWS Panorama  
 - Processamento de vídeo local em tempo real.  
 
-## 12.0 Robótica  
+## 13. 0 Robótica  
 - Aplicações de IA em automação e robôs inteligentes.  
 
-## 13. Segurança, Conformidade e Governança para Soluções de IA
+## 14. Segurança, Conformidade e Governança para Soluções de IA
 - **Amazon Macie**: Proteção de dados sensíveis.
        Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
 - **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v8
+ge tavares v10
