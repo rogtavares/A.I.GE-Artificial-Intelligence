@@ -3,7 +3,7 @@
 title: markmap
 markmap:
   colorFreezeLevel: 8 
-# GE-Artificial-Intelligence (IA)
+# **GE-Artificial-Intelligence (IA)**
 
 
 
@@ -231,4 +231,4 @@ Esses serviços não são LLMs diretamente, mas podem ser integrados ou usados p
        Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
 - **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v14
+ge tavares v16
