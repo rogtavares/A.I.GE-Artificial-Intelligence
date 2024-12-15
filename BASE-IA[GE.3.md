@@ -203,11 +203,11 @@ Criar bons prompts é essencial para extrair o máximo da IA. Aqui entra o méto
 ### 12.18 AWS Panorama  
 - Processamento de vídeo local em tempo real.  
 
-## 13. Serviços que utilizam ou suportam LLMs diretamente:
+## 13. Serviços que utilizam ou suportam **LLMs** diretamente:
 
 - **12.2 Amazon Bedrock**
 Por que está relacionado a **LLMs**?
-**É uma das soluções mais diretas da AWS para LLMs. Permite acessar modelos de linguagem pré-treinados e IA generativa** (como GPT, Claude, e Llama 2) via uma API única, facilitando a integração com aplicações de negócios.
+**É uma das soluções mais diretas da AWS para LLMs. Permite acessar modelos de linguagem pré-treinados e IA generativa** (como 12.2.1 Amazon Nova ) via uma API única, facilitando a integração com aplicações de negócios.
 - **12.3 Amazon Comprehend**
 Por que está relacionado a **LLMs**?
 Focado em extração de insights de texto, como análise de sentimentos, classificação de documentos e extração de entidades. Internamente, pode ser baseado em LLMs menores para tarefas específicas de NLP.
@@ -224,11 +224,11 @@ Esses serviços não são LLMs diretamente, mas podem ser integrados ou usados p
  - **12.6 Amazon Forecast**: Utiliza ML para previsões, que podem ser aprimoradas com insights gerados por LLMs.
  - **12.5 Amazon Fraud Detector**: Modelos especializados em detecção de fraudes podem usar dados analisados por LLMs para enriquecer insights.
  - **12.15 Amazon Textract**: Extrai texto estruturado de documentos que pode ser processado posteriormente por LLMs para análises detalhadas.
- - **12.16 Amazon Transcribe** e **14.17 Amazon Translate**: Resultados de transcrição e tradução podem ser alimentados a LLMs para análise e geração de respostas. 
+ - **12.16 Amazon Transcribe** e **12.17 Amazon Translate**: Resultados de transcrição e tradução podem ser alimentados a LLMs para análise e geração de respostas. 
 
 ## **14. Segurança, Conformidade e Governança para Soluções de IA**
 - **Amazon Macie**: Proteção de dados sensíveis.
        Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
 - **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v16
+ge tavares v17
