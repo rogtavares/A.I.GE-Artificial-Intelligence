@@ -11,7 +11,7 @@ markmap:
 
 
 
-## 1. Fundamentos de IA e ML
+## **1. Fundamentos de IA e ML**
 - **O que é Inteligência Artificial (IA)?🟠**
   - IA é o campo da ciência da computação focado no desenvolvimento de sistemas que exibem comportamentos inteligentes.
   - Envolve coleta de dados, seleção de algoritmos, treinamento, teste e implantação.
@@ -23,7 +23,7 @@ markmap:
      - **Camada de Aplicação**: Interface com o usuário, que permite interagir com o sistema.
  
   
-## 2. Terminologias Básicas de IA 🟠
+## **2. Terminologias Básicas de IA** 🟠
 - **Machine Learning (ML)**: Algoritmos que melhoram automaticamente com base em dados.
 - **Deep Learning (DL)🔵**: Subconjunto do ML que usa redes neurais profundas.
 - **NLP (Natural Language Processing)**: Tecnologia que permite máquinas entenderem e interagirem com a linguagem humana.
@@ -38,7 +38,7 @@ markmap:
 - **Deep Learning (DL)**:🔵 Utiliza redes neurais profundas.
 - **IA Generativa**:🌟 Criação de conteúdo novo (texto, imagem, áudio).
 
-## 4. Compreendendo o Modelo Base
+## **4. Compreendendo o Modelo Base**
 - **Redes Neurais (RN)** 🟣: Redes neurais treinadas em grandes dados para serem ajustadas para novas tarefas.
   - Estruturas inspiradas no cérebro humano para processamento. 
 - **Características**: 🟣Adaptabilidade, generalistas e desafios de integração e custo.
@@ -49,7 +49,7 @@ markmap:
   - 4.5. **Dropout** 
 
 
-## 5. Machine Learning (ML)🟡
+## **5. Machine Learning (ML)**🟡
 - **Definição**: Algoritmos que aprendem a partir de dados para tomar decisões.
 - **Tipos**: 
   - 5.1. **Aprendizado Supervisionado**  
@@ -65,25 +65,25 @@ markmap:
   -   - 5.11.**Árvores de Decisão**  
 
 
-## 6. O Que é Tecnologia LLM?
+## **6. O Que é LLM?**
  - **LLM significa Large Language Model (Grande Modelo de Linguagem)**. 
- - são aqueles voltados para processamento de linguagem natural (NLP), IA generativa e aprendizado de máquina (ML). 
+   - são aqueles voltados para processamento de linguagem natural (NLP), IA generativa e aprendizado de máquina (ML). 
 
    - Os LLMs são um tipo de modelo de inteligência artificial (IA) projetado para processar e gerar texto semelhante ao humano.
      - • Eles são treinados em conjuntos de dados massivos de texto e código, permitindo que "aprendam" padrões complexos na linguagem.
      - • Essa capacidade de aprendizado permite que LLMs realizem uma variedade de tarefas, incluindo: 
-    ○ Geração de Texto: Criar histórias, artigos e outros tipos de conteúdo escrito.
-    ○ Tradução de Idiomas: Traduzir texto de um idioma para outro.
-    ○ Resumo de Texto: Condensar grandes quantidades de texto em resumos concisos.
-    ○ Resposta a Perguntas: Fornecer respostas informativas a perguntas complexas.
-    ○ Assistência à Codificação: Sugerir código e ajudar os desenvolvedores a escrever software.
-       - Os LLMs são uma tecnologia poderosa que está impulsionando a inovação em diversas áreas.
-       - • Chatbots e assistentes virtuais: Simplificam o autoatendimento do cliente e reduzem os custos operacionais, automatizando consultas de atendimento.
-       - • Análise conversacional: Analisam o feedback não estruturado dos clientes para identificar os principais tópicos, detectar sentimentos e revelar tendências emergentes.
-       - • Assistente de funcionários: Ajudam a encontrar informações precisas, obter respostas, resumir e criar conteúdo por meio de uma interface conversacional.
-       - • Geração de código: Aceleram o desenvolvimento de aplicações com sugestões de código baseadas em comentários e códigos do desenvolvedor.
+    - • Geração de Texto: Criar histórias, artigos e outros tipos de conteúdo escrito.
+    - • Tradução de Idiomas: Traduzir texto de um idioma para outro.
+    - • Resumo de Texto: Condensar grandes quantidades de texto em resumos concisos.
+    - • Resposta a Perguntas: Fornecer respostas informativas a perguntas complexas.
+    - • Assistência à Codificação: Sugerir código e ajudar os desenvolvedores a escrever software.
+      
+    - • Chatbots e assistentes virtuais: Simplificam o autoatendimento do cliente e reduzem os custos operacionais, automatizando consultas de atendimento.
+    - • Análise conversacional: Analisam o feedback não estruturado dos clientes para identificar os principais tópicos, detectar sentimentos e revelar tendências emergentes.
+    - • Assistente de funcionários: Ajudam a encontrar informações precisas, obter respostas, resumir e criar conteúdo por meio de uma interface conversacional.
+    - • Geração de código: Aceleram o desenvolvimento de aplicações com sugestões de código baseadas em comentários e códigos do desenvolvedor.
 
-- É importante notar que, embora os LLMs sejam uma tecnologia avançada, eles ainda estão em desenvolvimento e possuem limitações. Por exemplo, os LLMs podem gerar informações imprecisas ("alucinações") ou exibir preconceitos presentes nos dados de treinamento. Por esse motivo, é fundamental usar os LLMs com responsabilidade e estar ciente de suas limitações.
+- É importante notar que,mesmos q LLMs sejam uma tecnologia avançada, eles ainda estão em desenvolvimento e possuem limitações. Por exemplo, os LLMs podem gerar informações imprecisas ("alucinações") ou exibir preconceitos presentes nos dados de treinamento. Por esse motivo,cuidado.
 
 
 ## 7. Pipeline de ML: Componentes com Serviços AWS
@@ -129,7 +129,7 @@ Criar bons prompts é essencial para extrair o máximo da IA. Aqui entra o méto
 
 - **Ferramentas**: **SageMaker Clarify** para detecção de viés e explicações de previsões.
 
-## 12. Serviços de IA 🟠 Gerenciados pela AWS
+## **12. Serviços de IA 🟠 Gerenciados pela AWS**
 ### 12.1 Amazon Augmented AI (A2I)  
 
 - Análise humana de sistemas de ML para auditoria e precisão.  
@@ -231,4 +231,4 @@ Esses serviços não são LLMs diretamente, mas podem ser integrados ou usados p
        Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
 - **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v11
+ge tavares v13
