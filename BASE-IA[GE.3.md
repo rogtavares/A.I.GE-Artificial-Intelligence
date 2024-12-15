@@ -108,6 +108,15 @@ markmap:
 - **Engenharia de Prompt**: Orienta modelos para gerar respostas específicas.
 - **RAG (Recuperação com Geração Aumentada)**: Melhora respostas utilizando dados internos.
 - **RLHF (Reinforcement Learning with Human Feedback)**: Aprendizado por feedback humano.
+- 
+   **Método PACIF**
+Criar bons prompts é essencial para extrair o máximo da IA. Aqui entra o método **PACIF**:
+  - ***P (Preciso)***: Seja claro e específico.
+  - ***A(Abrangente)***: Inclua detalhes relevantes.
+  - ***C(Coerente)***: Mantenha a lógica e a consistência.
+  - ***(Informativo)***: Forneça contexto - suficiente.
+***F (Focado)***: Concentre-se no objetivo final.
+ 
 
 ## 10. Design e Implementação de Automação de Pipeline
 - **MLOps**: Práticas de DevOps para ML, incluindo automação e governança.
@@ -127,6 +136,22 @@ markmap:
 
 ### 12.2 Amazon Bedrock  
 - Acesso a modelos de base (FMs) para IA generativa via API única.  
+  
+   - 12.2.1 **Amazon Nova**
+      - 12.2.1.1 **Amazon Nova Micro** 
+        - Modelo apenas para texto, que oferece respostas com a menor latência e a custos extremamente baixos
+      - 12.2.1.2 **Amazon Nova Lite** 
+        - Modelo multimodal de baixo custo e extremamente rápido para processar entradas de texto, imagem e vídeo
+      - 12.2.1.3 **Amazon Nova Pro** 
+         - Modelo multimodal de alta capacidade que combina precisão, velocidade e custo para uma ampla gama de tarefas 
+      - 12.2.1.4 **Amazon Nova Premier** **(será lançado no primeiro trimestre de 2025)**
+         - o modelo multimodal mais avançado, ideal para tarefas complexas e para desenvolvimento de modelos personalizados
+     - **((dois modelos para atividades específicas))**
+       - 12.2.1.5 **Amazon Nova Canvas** 
+         - Que gera imagens de alta qualidade 
+       - 12.2.1.6  **Amazon Nova Reel**  
+         - Que cria vídeos iguais aos de estúdio.
+
 
 ### 12.3 Amazon Comprehend  
 - Extração de insights de texto.  
