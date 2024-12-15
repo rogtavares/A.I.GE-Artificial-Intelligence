@@ -49,7 +49,7 @@ markmap:
   - 4.5. **Dropout** 
 
 
-## **5. Machine Learning (ML)**🟡
+## **5. Machine Learning (ML)** 🟡
 - **Definição**: Algoritmos que aprendem a partir de dados para tomar decisões.
 - **Tipos**: 
   - 5.1. **Aprendizado Supervisionado**  
@@ -86,12 +86,12 @@ markmap:
 - É importante notar que,mesmos q LLMs sejam uma tecnologia avançada, eles ainda estão em desenvolvimento e possuem limitações. Por exemplo, os LLMs podem gerar informações imprecisas ("alucinações") ou exibir preconceitos presentes nos dados de treinamento. Por esse motivo,cuidado.
 
 
-## 7. Pipeline de ML: Componentes com Serviços AWS
+## **7. Pipeline de ML: Componentes com Serviços AWS**
 - **Coleta de Dados**: Amazon S3, AWS Glue.
 - **Treinamento de Modelos**: Amazon SageMaker.
 - **Avaliação e Implantação**: SageMaker Model Monitor, Amazon CloudWatch.
 
-## 8. Fundamentos de IA Generativa 🌟
+## **8. Fundamentos de IA Generativa**  🌟
 - **Definição**: Criação de conteúdo original usando aprendizado profundo.
 - **Benefícios**: Acelera pesquisa, melhora a experiência do cliente e otimiza operações.
   - 8.1. **Geração de Conteúdo e Ideias**  
@@ -104,7 +104,7 @@ markmap:
   - 8.8. **Modelos Generativos Específicos**  
   - 8.9. **Aplicações em Tempo Real**
 
-## 9. Aplicações de Modelos Base
+## **9. Aplicações de Modelos Base**
 - **Engenharia de Prompt**: Orienta modelos para gerar respostas específicas.
 - **RAG (Recuperação com Geração Aumentada)**: Melhora respostas utilizando dados internos.
 - **RLHF (Reinforcement Learning with Human Feedback)**: Aprendizado por feedback humano.
@@ -118,11 +118,11 @@ Criar bons prompts é essencial para extrair o máximo da IA. Aqui entra o méto
 ***F (Focado)***: Concentre-se no objetivo final.
  
 
-## 10. Design e Implementação de Automação de Pipeline
+## **10. Design e Implementação de Automação de Pipeline**
 - **MLOps**: Práticas de DevOps para ML, incluindo automação e governança.
 - **Monitoramento**: Detecção de desvios de desempenho usando SageMaker.
 
-## 11. IA Responsável
+## **11. IA Responsável**
 
 - **Práticas**: Questões morais e éticas no uso da IA.  
 - Transparência, responsabilidade e impacto social. 
@@ -226,9 +226,9 @@ Esses serviços não são LLMs diretamente, mas podem ser integrados ou usados p
  - **12.15 Amazon Textract**: Extrai texto estruturado de documentos que pode ser processado posteriormente por LLMs para análises detalhadas.
  - **12.16 Amazon Transcribe** e **14.17 Amazon Translate**: Resultados de transcrição e tradução podem ser alimentados a LLMs para análise e geração de respostas. 
 
-## 14. Segurança, Conformidade e Governança para Soluções de IA
+## **14. Segurança, Conformidade e Governança para Soluções de IA**
 - **Amazon Macie**: Proteção de dados sensíveis.
        Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
 - **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v13
+ge tavares v14
