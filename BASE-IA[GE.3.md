@@ -189,19 +189,31 @@ Criar bons prompts é essencial para extrair o máximo da IA. Aqui entra o méto
 - Reconhecimento de imagens e vídeos.  
 
 ### 12.14 Amazon SageMaker  
-- Criação, treinamento e implantação de modelos de ML gerenciados.  
+- Criação, treinamento e implantação de modelos de ML gerenciados.
 
+### 12.14.2 Amazon SageMaker JumpStart
+-  é um hub de machine learning (ML) que pode ajudar você a acelerar sua jornada de ML. Com o SageMaker JumpStart, você pode avaliar, comparar e selecionar Foundation Models (FMs) rapidamente com base em métricas de qualidade e responsabilidade predefinidas para executar tarefas como resumo de artigos e geração de imagens. Os modelos pré-treinados são totalmente personalizáveis ​​para seu caso de uso com seus dados, e você pode implantá-los facilmente na produção com a interface do usuário ou SDK. ​​  
+
+### 12.4.3 SageMaker Clarify (Avalie FMs com o SageMaker Clarify)
+- O SageMaker Clarify ajuda a identificar possíveis vieses durante a preparação de dados sem escrever código. Você especifica recursos de entrada, como gênero ou idade, e o SageMaker Clarify executa um trabalho de análise para detectar possíveis vieses nesses recursos.(( Viés em resultados gerados por IA envolveria conteúdo que favorece ou discrimina injustamente certos grupos))
+    - Viés de amostragem
+    - Viés de medição
+    - Viés do observador
+    - Viés de confirmação
 ### 12.15 Amazon Textract  
 - Extração automática de texto e dados de documentos.  
 
 ### 12.16 Amazon Transcribe  
-- Conversão automática de voz em texto.  
+- converte entrada de áudio em texto, o que abre as portas para vários aplicativos de análise de texto em entrada de voz
 
 ### 12.17 Amazon Translate  
 - Tradução automática fluente e precisa.  
 
 ### 12.18 AWS Panorama  
-- Processamento de vídeo local em tempo real.  
+- Processamento de vídeo local em tempo real.
+
+### 12.19 AWS Trainium
+- O AWS Trainium é o chip de machine learning (ML) que a AWS construiu especificamente para treinamento de deep learning (DL) de mais de 100 bilhões de modelos de parâmetros. Cada instância Trn1 do Amazon Elastic Compute Cloud (Amazon EC2) implementa até 16 aceleradores Trainium para fornecer uma solução de alto desempenho e baixo custo para treinamento DL na nuvem.  
 
 ## 13. Serviços que utilizam ou suportam **LLMs** diretamente:
 
@@ -231,4 +243,4 @@ Esses serviços não são LLMs diretamente, mas podem ser integrados ou usados p
        Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
 - **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v17
+ge tavares v19
