@@ -24,14 +24,32 @@ markmap:
  
   
 ## **2. Terminologias Básicas de IA** 🟠
-- **Machine Learning (ML)**: Algoritmos que melhoram automaticamente com base em dados.
-- **Deep Learning (DL)🔵**: Subconjunto do ML que usa redes neurais profundas.
-- **NLP (Natural Language Processing)**: Tecnologia que permite máquinas entenderem e interagirem com a linguagem humana.
-- **LLMs  Large Language Models** são aqueles voltados para processamento de linguagem natural **(NLP)**, **IA generativa** e **Machine Leaning(ML)**
+- Inteligência artificial (IA)
+- Rede neural artificial (Artificial neural network)
+    - Uma Rede Neural Artificial (RNA) é um programa de computador que imita a maneira como o cérebro humano processa informações. 
+- Inteligência aumentada (Augmented intelligence)
+- CRM com IA
+    - CRM é uma tecnologia que mantém registros de clientes em um só lugar para servir como a única fonte de verdade para cada departamento.A IA generativa pode tornar o CRM ainda mais poderoso — pense em e-mails personalizados pré-escritos para equipes de vendas.
+-  Deep learning (DL)🔵**: Subconjunto do ML que usa redes neurais profundas.
 
+   - Deep learning é uma forma avançada de IA que ajuda os computadores a se tornarem realmente bons em reconhecer padrões complexos em dados 
+- AI generativa (Generative AI)
+    - é o campo da inteligência artificial que foca na criação de novos conteúdos com base em dados existentes 
+- Generator
+    - Um gerador é uma ferramenta de software baseada em IA que cria novo conteúdo a partir de uma solicitação ou entrada. Ele aprenderá com quaisquer dados de treinamento fornecidos e 
+- GPT
+    - GPT é uma família de redes neurais treinada para gerar conteúdo. Os modelos GPT são pré-treinados em uma grande quantidade de dados de texto, o que permite que eles gerem texto claro e relevante 
+- Machine learning
+    - é como os computadores podem aprender coisas novas sem serem programados para fazê-las. Por exemplo, ao ensinar uma criança a identificar animais, você mostra a ela imagens e fornece feedback.  
+- NLP
+    - PNL é um campo da inteligência artificial que se concentra em como os computadores podem entender, interpretar e gerar linguagem humana. É a tecnologia por trás de coisas como assistentes virtuais ativados por voz, aplicativos de tradução de idiomas e chatbots. 
+- Parâmetros (Parameters)
+   - são valores numéricos que são ajustados durante o treinamento para minimizar a diferença entre as previsões de um modelo e os resultados reais. Os parâmetros desempenham um papel crucial na modelagem do conteúdo gerado  
+- Transformador (Transformer)
+ 
 - **IA Responsável 🌟**: Práticas éticas que garantem que a IA seja justa, transparente e segura.
 
-## 3. Diferenças entre IA, ML, Deep Learning e IA Generativa
+## **3. Diferenças entre IA, ML, Deep Learning e IA Generativa**
 - **IA**:🟠 Campo amplo da ciência de dados.
   
 - **Machine Learning ML**:🟡 Algoritmos que aprendem a partir de dados.
@@ -243,4 +261,4 @@ Esses serviços não são LLMs diretamente, mas podem ser integrados ou usados p
        Serviço de segurança de dados e privacidade que usa machine learning para descobrir, classificar e proteger dados confidenciais P.I.I
 - **AWS PrivateLink**: Conexões privadas e seguras para serviços de IA,e de terceiros de forma segura
 
-ge tavares v19
+ge tavares v20
