@@ -42,7 +42,7 @@ markmap:
 - Machine learning
     - é como os computadores podem aprender coisas novas sem serem programados para fazê-las. Por exemplo, ao ensinar uma criança a identificar animais, você mostra a ela imagens e fornece feedback.  
 - NLP
-    - PNL é um campo da inteligência artificial que se concentra em como os computadores podem entender, interpretar e gerar linguagem humana. É a tecnologia por trás de coisas como assistentes virtuais ativados por voz, aplicativos de tradução de idiomas e chatbots. 
+    - NLP é um campo da inteligência artificial que se concentra em como os computadores podem entender, interpretar e gerar linguagem humana. É a tecnologia por trás de coisas como assistentes virtuais ativados por voz, aplicativos de tradução de idiomas e chatbots. 
 - Parâmetros (Parameters)
    - são valores numéricos que são ajustados durante o treinamento para minimizar a diferença entre as previsões de um modelo e os resultados reais. Os parâmetros desempenham um papel crucial na modelagem do conteúdo gerado  
 - Transformador (Transformer)
@@ -146,6 +146,18 @@ Criar bons prompts é essencial para extrair o máximo da IA. Aqui entra o méto
 - Transparência, responsabilidade e impacto social. 
 
 - **Ferramentas**: **SageMaker Clarify** para detecção de viés e explicações de previsões.
+- Antropomorfismo
+    - A tendência das pessoas atribuírem motivação humana, emoções, características ou comportamento a sistemas de IA. 
+- Ethical AI Maturity Model
+- IA explicável (XAI)
+- Humano no Loop (HITL)
+- Viés de Machine learning
+- Defesa rápida
+- Red-Teaming Equipe vermelha
+- Segurança
+- Toxicidade
+- Transparência (Transparency)
+- Retenção zero de dados
 
 ## **12. Serviços de IA 🟠 Gerenciados pela AWS**
 ### 12.1 Amazon Augmented AI (A2I)  
