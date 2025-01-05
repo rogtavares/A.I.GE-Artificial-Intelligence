@@ -79,8 +79,8 @@ markmap:
   - 5.7. **Regressão**  
   - 5.8. **Engenharia de Recursos**  
   - 5.9. **Aprendizagem em Conjunto**  
-  - 5.8. Máquinas de Vetores de Suporte (SVM)
-  -   - 5.11.**Árvores de Decisão**  
+  - 5.10. Máquinas de Vetores de Suporte (SVM)
+  - 5.11.**Árvores de Decisão**  
 
 
 ## **6. O Que é LLM?**
