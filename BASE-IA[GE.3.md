@@ -6,7 +6,7 @@
 - **O que é Inteligência Artificial (IA)?**
   - IA é o campo da ciência da computação focado no desenvolvimento de sistemas que exibem comportamentos inteligentes.
   - Envolve coleta de dados, seleção de algoritmos, treinamento, teste e implantação.
-- **Arquitetura de Aplicações de IA **
+- **Arquitetura de Aplicações de IA**
   - Camada de Dados, Modelo e Aplicação.
     - **Camada de Dados**: Organiza e prepara os dados para uso.
     - **Camada de Modelo**: Responsável pelas decisões do sistema, usando modelos treinados.
@@ -29,9 +29,9 @@
   - 3.4 **Redes Neurais Recorrentes (RNN)**  
   - 3.5 **Dropout**  
 
-## **4. Machine Learning (ML)** 🟡
+## **4. Machine Learning (ML)** 
 - **Definição**: Algoritmos que aprendem a partir de dados para tomar decisões.
-4- **4pos**: 
+4- **4**: 
   - 4.1 **Aprendizado Supervisionado**  
   - 4.2. **Aprendizado Não Supervisionado**  
   - 4.3 **Aprendizado Se44upervisionado**  
@@ -54,7 +54,7 @@
   - Recomendações personalizadas
   - Previsão do tempo
   
-## 5. Deep Learning (DL)
+## **5. Deep Learning (DL)**
 - **Definição**: Subconjunto do ML que usa redes neurais profundas para aprender com grandes volumes de dados.
 - **Tipos/Metodologias**:
   - Redes neurais convolucionais (CNNs)
@@ -72,12 +72,12 @@
 
 ---
 
-## 6. IA Generativa (Ge AI)
+## **6. IA Generativa (Ge AI)**
 - **Definição**: Tipo de IA focada na geração de novo conteúdo, como imagens, texto ou música.
 - **Tipos/Metodologias**:
-  - Redes Generativas Adversariais (GANs)
-  - Autoencoders Variacionais (VAEs)
-  - Modelos de Linguagem Grandes (LLMs)
+  - Redes Generativas Adversariais **(GANs)**
+  - Autoencoders Variacionais **(VAEs)**
+  - Modelos de Linguagem Grandes **(LLMs)**
 - **Dependência de Dados**: Requer grandes conjuntos de dados para treinamento realista.
 - **Aplicações**:
   - Geração de imagem/vídeo
@@ -89,15 +89,15 @@
   - DeepDream (criação de imagens)
 ## **7. O Que é LLM?**
 - **(LLM) significa Large Language Model (Grande Modelo de Linguagem)**.
-  - Usado para processamento de linguagem natural (NLP) e IA generativa.
+  - Usado para processamento de linguagem natural **(NLP) e IA generativa**.
   - Treinado em grandes quantidades de texto e código.
   - Geração de Texto, Tradução de Idiomas, Resumo de Texto, Resposta a Perguntas, Assistência à Codificação.
   - Assistência à Codificação: Sugerir código e ajudar os desenvolvedores a escrever software.
   - Chatbots e assistentes virtuais: Simplificam o autoatendimento do cliente e reduzem os custos operacionais, automatizando consultas de atendimento.
   - Análise conversacional: Analisam o feedback não estruturado dos clientes para identificar os principais tópicos, detectar sentimentos e revelar tendências emergentes.
   - Assistente de funcionários: Ajudam a encontrar informações precisas, obter respostas, resumir e criar conteúdo por meio de uma interface conversacional.
-  - É importante notar que,mesmos q LLMs sejam uma tecnologia avançada, eles ainda estão em desenvolvimento e possuem limitações.
-       - Por exemplo, os LLMs podem gerar informações imprecisas ("alucinações") ou exibir preconceitos presentes nos dados de treinamento. Por esse motivo,cuidado.
+  - **É importante notar que,mesmos q LLMs sejam uma tecnologia avançada, eles ainda estão em desenvolvimento e possuem limitações**.
+       - Por exemplo, os LLMs podem gerar informações imprecisas **("alucinações")** ou exibir preconceitos presentes nos dados de treinamento. Por esse motivo,cuidado.
 
 ## **8. Pipeline de ML: Componentes com Serviços AWS**
 - **Coleta de Dados**: Amazon S3, AWS Glue.
@@ -210,8 +210,8 @@
 - **Amazon Bedrock**, **Amazon Comprehend**, **Amazon Lex**, **Amazon SageMaker**.
 
 ## **16. Considerações Finais**
- pensando....
+          - pensando....
 
 
 
-ge.tV6
+ge.tV7
