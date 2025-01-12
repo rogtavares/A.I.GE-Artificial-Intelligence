@@ -1,6 +1,6 @@
 # GE-Artificial-Intelligence (IA)
 
-## [TODOS SERVIÇOS AWS GÉTAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)
+## [TODOS SERVIÇOS AWS e SALESFORCE  GÉTAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)
 
 ## **1. Fundamentos de IA e ML**
 - **O que é Inteligência Artificial (IA)?**
@@ -210,7 +210,7 @@
 - **Amazon Bedrock**, **Amazon Comprehend**, **Amazon Lex**, **Amazon SageMaker**.
 
 ## **16. Considerações Finais**
-          - pensando....
+          - pensando....1 abraço...
 
 
 
