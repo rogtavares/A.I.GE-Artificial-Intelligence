@@ -3,61 +3,46 @@
 ## [TODOS SERVIÇOS AWS GÉTAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)
 
 ## **1. Fundamentos de IA e ML**
-- **O que é Inteligência Artificial (IA)?🟠**
+- **O que é Inteligência Artificial (IA)?**
   - IA é o campo da ciência da computação focado no desenvolvimento de sistemas que exibem comportamentos inteligentes.
   - Envolve coleta de dados, seleção de algoritmos, treinamento, teste e implantação.
-- **Arquitetura de Aplicações de IA 🟠**
+- **Arquitetura de Aplicações de IA **
   - Camada de Dados, Modelo e Aplicação.
     - **Camada de Dados**: Organiza e prepara os dados para uso.
     - **Camada de Modelo**: Responsável pelas decisões do sistema, usando modelos treinados.
     - **Camada de Aplicação**: Interface com o usuário, que permite interagir com o sistema.
 
-## **2. Terminologias Básicas de IA** 🟠
-- Inteligência artificial (IA)
-- Rede neural artificial (Artificial neural network)
-- Inteligência aumentada (Augmented intelligence)
-- CRM com IA
-- Deep learning (DL)🔵
-- AI generativa (Generative AI)
-- GPT
-- Machine learning
-- NLP
-- Parâmetros (Parameters)
-- Transformador (Transformer)
-- **IA Responsável 🌟**: Práticas éticas que garantem que a IA seja justa, transparente e segura.
+## **2. Diferenças entre IA, ML, Deep Learning e IA Generativa**
+- **IA** é o campo geral que engloba ML, DL e IA Generativa.
+- **ML** é focado no aprendizado a partir de dados.
+- **DL** utiliza redes neurais para aprender padrões complexos em grandes volumes de dados.
+- **IA Generativa** é a aplicação mais recente que cria conteúdo novo baseado em dados de treinamento.
 
-## **3. Diferenças entre IA, ML, Deep Learning e IA Generativa**
-- **IA**:🟠 Campo amplo da ciência de dados.
-- **Machine Learning ML**:🟡 Algoritmos que aprendem a partir de dados.
-- **Deep Learning (DL)**:🔵 Utiliza redes neurais profundas.
-- **IA Generativa**:🌟 Criação de conteúdo novo (texto, imagem, áudio).
 
-## **4. Compreendendo o Modelo Base**
+## **3. Compreendendo o Modelo Base**
 - **Redes Neurais (RN)** 🟣: Redes neurais treinadas em grandes dados para serem ajustadas para novas tarefas.
   - Estruturas inspiradas no cérebro humano para processamento. 
 - **Características**: 🟣Adaptabilidade, generalistas e desafios de integração e custo.
-  - 4.1. **Modelo Perceptron**  
-  - 4.2. **Perceptron Multicamadas (MLP)**  
-  - 4.3. **Funções de Ativação**  
-  - 4.4. **Redes Neurais Recorrentes (RNN)**  
-  - 4.5. **Dropout**  
+  - 3.1. **Modelo Perceptron**  
+  - 3.2. **Perceptron Multicamadas (MLP)**  
+  - 3.3. **Funções de Ativação**  
+  - 3.4 **Redes Neurais Recorrentes (RNN)**  
+  - 3.5 **Dropout**  
 
-## **5. Machine Learning (ML)** 🟡
+## **4. Machine Learning (ML)** 🟡
 - **Definição**: Algoritmos que aprendem a partir de dados para tomar decisões.
-
-
-- **Tipos**: 
-  - 5.1. **Aprendizado Supervisionado**  
-  - 5.2. **Aprendizado Não Supervisionado**  
-  - 5.3. **Aprendizado Semi-Supervisionado**  
-  - 5.4. **Aprendizado por Reforço**  
-  - 5.5. **Agrupamento (Clustering)**  
-  - 5.6. **Classificação**  
-  - 5.7. **Regressão**  
-  - 5.8. **Engenharia de Recursos**  
-  - 5.9. **Aprendizagem em Conjunto**  
-  - 5.10. Máquinas de Vetores de Suporte (SVM)
-  - 5.11.**Árvores de Decisão** 
+4- **4pos**: 
+  - 4.1 **Aprendizado Supervisionado**  
+  - 4.2. **Aprendizado Não Supervisionado**  
+  - 4.3 **Aprendizado Se44upervisionado**  
+  - 4.4 **Aprendizado por Reforço**  
+  - 4.5 **Agrupamento (Clustering)**  
+  - 4.6 **Classificação**  
+  - 4.7 **Regressão**  
+  - 4.8 **Engenharia de Recursos**  
+  - 4.9. **Aprendizagem em Conjunto**  
+  - 4.10 Máquinas de Vetores de Suporte (SVM)
+  - 4.11.**Árvores de Decisão** 
 
    **Dependência de Dados**: Depende de dados rotulados ou não rotulados.
 - **Aplicações**:
@@ -69,7 +54,7 @@
   - Recomendações personalizadas
   - Previsão do tempo
   
-## 6. Deep Learning (DL)
+## 5. Deep Learning (DL)
 - **Definição**: Subconjunto do ML que usa redes neurais profundas para aprender com grandes volumes de dados.
 - **Tipos/Metodologias**:
   - Redes neurais convolucionais (CNNs)
@@ -87,7 +72,7 @@
 
 ---
 
-## 7. IA Generativa (Ge AI)
+## 6. IA Generativa (Ge AI)
 - **Definição**: Tipo de IA focada na geração de novo conteúdo, como imagens, texto ou música.
 - **Tipos/Metodologias**:
   - Redes Generativas Adversariais (GANs)
@@ -102,7 +87,7 @@
   - DALL-E (imagens)
   - ChatGPT (texto)
   - DeepDream (criação de imagens)
-## **8. O Que é LLM?**
+## **7. O Que é LLM?**
 - **(LLM) significa Large Language Model (Grande Modelo de Linguagem)**.
   - Usado para processamento de linguagem natural (NLP) e IA generativa.
   - Treinado em grandes quantidades de texto e código.
@@ -114,7 +99,7 @@
   - É importante notar que,mesmos q LLMs sejam uma tecnologia avançada, eles ainda estão em desenvolvimento e possuem limitações.
        - Por exemplo, os LLMs podem gerar informações imprecisas ("alucinações") ou exibir preconceitos presentes nos dados de treinamento. Por esse motivo,cuidado.
 
-## **7. Pipeline de ML: Componentes com Serviços AWS**
+## **8. Pipeline de ML: Componentes com Serviços AWS**
 - **Coleta de Dados**: Amazon S3, AWS Glue.
 - **Treinamento de Modelos**: Amazon SageMaker.
 - **Avaliação e Implantação**: SageMaker Model Monitor, Amazon CloudWatch.
@@ -125,8 +110,8 @@
   - 9.1. **Geração de Conteúdo e Ideias**  
   - 9.2. **Aumentando a Produtividade**  
   - 9.3. **Personalização de Experiências**  
-  - 9.4. **Avanços em Grandes Modelos de Linguagem (LLMs)**  
-  - 9.5. **Integração Multimodal**  
+  - 9.4 **Avanços em Grandes Modelos de Linguagem (LLMs)**  
+  - 9.4. **Integração Multimodal**  
   - 9.6. **Mitigação Ética e de Preconceitos**  
 
 ## **10. Aplicações de Modelos Base**
@@ -155,18 +140,18 @@
         - Modelo multimodal de baixo custo e extremamente rápido para processar entradas de texto, imagem e vídeo
       - 13.2.1.3 **Amazon Nova Pro** 
          - Modelo multimodal de alta capacidade que combina precisão, velocidade e custo para uma ampla gama de tarefas 
-      - 13.2.1.4 **Amazon Nova Premier** **(será lançado no primeiro trimestre de 2025)**
+      - 13.2.1.3 **Amazon Nova Premier** **(será lançado no primeiro trimestre de 2025)**
          - o modelo multimodal mais avançado, ideal para tarefas complexas e para desenvolvimento de modelos personalizados
-     - **((dois modelos para atividades específicas))**
-       - 13.2.1.5 **Amazon Nova Canvas** 
+     - **((dois 4delos para atividades específicas))**
+       - 13.2.1.4 **Amazon Nova Canvas** 
          - Que gera imagens de alta qualidade 
        - 13.2.1.6  **Amazon Nova Reel**  
          - Que cria vídeos iguais 
 ### 13.3 Amazon Comprehend  
 - Extração de insights de texto.
-### 13.4 AWS DeepLens  
-- Câmera para implementar modelos de visão computacional.
-### 13.5 Amazon Fraud Detector  
+### 13.3 AWS DeepLens  
+- Câmer4para implementar modelos de visão computacional.
+### 13.4 Amazon Fraud Detector  
 - Detecção de fraudes online com ML.
 ### 13.6 Amazon Forecast  
 - Previsão de resultados de negócios usando ML.
@@ -196,7 +181,7 @@
 ### 13.14.2 Amazon SageMaker JumpStart
 -  é um **hub de machine learning (ML)** que pode ajudar você a acelerar sua jornada de ML. Com o SageMaker JumpStart, você pode avaliar, comparar e selecionar Foundation Models (FMs) rapidamente com base em métricas de qualidade e responsabilidade predefinidas para executar tarefas como resumo de artigos e geração de imagens. Os modelos pré-treinados são totalmente personalizáveis ​​para seu caso de uso com seus dados, e você pode implantá-los facilmente na produção com a interface do usuário ou SDK. ​​  
 
-### 13.4.3 SageMaker Clarify (Avalie FMs com o SageMaker Clarify)
+### 13.14.3 SageMaker Clarify (Avalie FMs com o SageMaker Clarify)
 - O SageMaker Clarify ajuda a identificar possíveis vieses durante a preparação de dados sem escrever código. Você especifica recursos de entrada, como gênero ou idade, e o SageMaker Clarify executa um trabalho de análise para detectar possíveis vieses nesses recursos.(( Viés em resultados gerados por IA envolveria conteúdo que favorece ou discrimina injustamente certos grupos))
     - Viés de amostragem
     - Viés de medição
@@ -225,12 +210,8 @@
 - **Amazon Bedrock**, **Amazon Comprehend**, **Amazon Lex**, **Amazon SageMaker**.
 
 ## **16. Considerações Finais**
-- **IA** é o campo geral que engloba ML, DL e IA Generativa.
-- **ML** é focado no aprendizado a partir de dados.
-- **DL** utiliza redes neurais para aprender padrões complexos em grandes volumes de dados.
-- **IA Generativa** é a aplicação mais recente que cria conteúdo novo baseado em dados de treinamento.
+ pensando....
 
 
 
-
-ge.tV5
+ge.tV6
