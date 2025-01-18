@@ -170,9 +170,31 @@ markmap:
 ### **10.20 AWS Trainium**
 - Chip de ML desenvolvido pela AWS para treinamento de deep learning (DL) com grandes modelos de parâmetros.
 
-## **11. Considerações Finais**
+## 11. Serviços que utilizam ou suportam **LLMs** diretamente:
+
+- **10.1 Amazon Bedrock**
+**Por que está relacionado a LLMs**?
+**É uma das soluções mais diretas da AWS para LLMs. Permite acessar modelos de linguagem pré-treinados e IA generativa** (como 12.2.1 Amazon Nova ) via uma API única, facilitando a integração com aplicações de negócios.
+- **10.2 Amazon Comprehend**
+**Por que está relacionado a LLMs**?
+Focado em extração de insights de texto, como análise de sentimentos, classificação de documentos e extração de entidades. Internamente, pode ser baseado em LLMs menores para tarefas específicas de NLP.
+- **10.10 Amazon Lex**
+**Por que está relacionado a LLMs**?
+Usa modelos de linguagem para criar bots conversacionais (chatbots e voicebots). Integra-se com LLMs para melhorar o entendimento e as respostas contextuais.
+- **10.03 Amazon SageMaker**
+**Por que está relacionado a LLMs**?
+Oferece infraestrutura completa para treinar, ajustar (fine-tune) e implantar LLMs. É amplamente utilizado para personalizar modelos para casos de uso específicos, como geração de conteúdo ou análise de dados.
+
+ - **10.14 Amazon Rekognition**: Integra reconhecimento de imagens/vídeos a aplicações baseadas em LLMs, como assistentes multimodais.
+ - **12.7 Amazon Forecast**: Utiliza ML para previsões, que podem ser aprimoradas com insights gerados por LLMs.
+ - **12.6 Amazon Fraud Detector**: Modelos especializados em detecção de fraudes podem usar dados analisados por LLMs para enriquecer insights.
+ - **12.16 Amazon Textract**: Extrai texto estruturado de documentos que pode ser processado posteriormente por LLMs para análises detalhadas.
+ - **12.16 Amazon Transcribe** e **12.18 Amazon Translate**: Resultados de transcrição e tradução podem ser alimentados a LLMs para análise e geração de respostas. 
+
+
+## **13. Considerações Finais**
 - "Queimando neurônios e explorando o futuro da IA."
 
 ## [Todos os Serviços AWS&Salesforce  -              Gé Tavares](https://rogtavares.github.io/AWS_getavares.github.io/)
 
-getavares v5
+getavares v6
