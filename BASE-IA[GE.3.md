@@ -3,33 +3,34 @@
 ## [TODOS SERVIÇOS AWS e SALESFORCE  GÉTAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)
 
 ## **1. Fundamentos de IA e ML**
+
 - **O que é Inteligência Artificial (IA)?**
   - IA é o campo da ciência da computação focado no desenvolvimento de sistemas que exibem comportamentos inteligentes.
   - Envolve coleta de dados, seleção de algoritmos, treinamento, teste e implantação.
+
 - **Arquitetura de Aplicações de IA**
   - Camada de Dados, Modelo e Aplicação.
     - **Camada de Dados**: Organiza e prepara os dados para uso.
     - **Camada de Modelo**: Responsável pelas decisões do sistema, usando modelos treinados.
-    - **Camada de Aplicação**: Interface com o usuário, que permite interagir com o sistema.
-
 ## **2. Diferenças entre IA, ML, Deep Learning e IA Generativa**
+
 - **IA** é o campo geral que engloba ML, DL e IA Generativa.
 - **ML** é focado no aprendizado a partir de dados.
 - **DL** utiliza redes neurais para aprender padrões complexos em grandes volumes de dados.
 - **IA Generativa** é a aplicação mais recente que cria conteúdo novo baseado em dados de treinamento.
-
-
+- **DL** utiliza redes neurais para aprender padrões complexos em grandes volumes de dados.
 ## **3. Compreendendo o Modelo Base**
+
 - **Redes Neurais (RN)** 🟣: Redes neurais treinadas em grandes dados para serem ajustadas para novas tarefas.
   - Estruturas inspiradas no cérebro humano para processamento. 
+
 - **Características**: 🟣Adaptabilidade, generalistas e desafios de integração e custo.
   - 3.1. **Modelo Perceptron**  
   - 3.2. **Perceptron Multicamadas (MLP)**  
   - 3.3. **Funções de Ativação**  
   - 3.4 **Redes Neurais Recorrentes (RNN)**  
-  - 3.5 **Dropout**  
-
 ## **4. Machine Learning (ML)** 
+
 - **Definição**: Algoritmos que aprendem a partir de dados para tomar decisões.
 4- **4**: 
   - 4.1 **Aprendizado Supervisionado**  
@@ -43,26 +44,34 @@
   - 4.9. **Aprendizagem em Conjunto**  
   - 4.10 Máquinas de Vetores de Suporte (SVM)
   - 4.11.**Árvores de Decisão** 
+  - 4.7 **Regressão**  
+  - 4.8 **Engenharia de Recursos**  
+  - 4.9. **Aprendizagem em Conjunto**  
+  - 4.10 Máquinas de Vetores de Suporte (SVM)
+  - 4.11.**Árvores de Decisão** 
 
    **Dependência de Dados**: Depende de dados rotulados ou não rotulados.
 - **Aplicações**:
   - Análise preditiva
   - Sistemas de recomendação
-  - Detecção de fraude
-- **Exemplos**:
-  - Filtros de spam
-  - Recomendações personalizadas
-  - Previsão do tempo
-  
 ## **5. Deep Learning (DL)**
+
 - **Definição**: Subconjunto do ML que usa redes neurais profundas para aprender com grandes volumes de dados.
 - **Tipos/Metodologias**:
   - Redes neurais convolucionais (CNNs)
   - Redes neurais recorrentes (RNNs)
   - Transformadores
+
 - **Dependência de Dados**: Requer grandes quantidades de dados para treinamento eficaz.
 - **Aplicações**:
   - Reconhecimento de imagem
+  - Processamento de Linguagem Natural (PNL)
+  - Veículos autônomos
+
+- **Exemplos**:
+  - Reconhecimento facial
+  - Carros autônomos
+  - Serviços de tradução de idiomas
   - Processamento de Linguagem Natural (PNL)
   - Veículos autônomos
 - **Exemplos**:
@@ -207,11 +216,13 @@
 - **AWS PrivateLink**: Conexões privadas e seguras.
 
 ## **15. Serviços que utilizam ou suportam LLMs diretamente**
+- Os grandes modelos de linguagem (LLMs) são uma classe de FMs. Por exemplo, os modelos de transformadores generativos pré-treinados (GPT) da OpenAI são LLMs. Os LLMs são especificamente focados em tarefas baseadas em linguagem, como resumo, geração de texto, classificação, conversa aberta e extração de informações.
 - **Amazon Bedrock**, **Amazon Comprehend**, **Amazon Lex**, **Amazon SageMaker**.
 
-## **16. Considerações Finais**
-          - pensando....1 abraço...
+## **16. Considerações Finais** "O Grande Finale"
+      - Estudando... (ou seria "queimando neurônios"?)
+      - 1 abraço (virtual, claro)
 
 
 
-ge.tV7
+ge.tV8
