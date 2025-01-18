@@ -8,7 +8,6 @@ markmap:
 
 # GE-Artificial-Intelligence (IA)
 
-## [Todos os Serviços AWS e Salesforce - Gétavares](https://rogtavares.github.io/AWS_getavares.github.io/)
 
 ## **1. Fundamentos de IA e ML**
 - **O que é Inteligência Artificial (IA)?**
@@ -34,12 +33,28 @@ markmap:
 ## **4. Machine Learning (ML)**
 - **Definição**: Algoritmos que aprendem a partir de dados para tomar decisões.
 - **Tipos de Aprendizado**:
-  - Supervisionado, Não Supervisionado, Semi-Supervisionado e Reforço.
+   - Supervisionado,
+       - O algoritmo é treinado com dados **rotulados**, onde as entradas e saídas desejadas são conhecidas. Exemplos incluem classificação de e-mails como spam ou não spam. 
+  - Não Supervisionado.
+      - O algoritmo trabalha com dados não rotulados, buscando identificar padrões e estruturas por conta própria34. É usado para clustering e detecção de anomalias.  
+  - Semi-Supervisionado
+     -  Combina dados rotulados e não rotulados para treinamento, útil quando a rotulação completa é custosa ou impraticável
+  - Reforço.
+    - O algoritmo aprende por meio de interações com um ambiente, recebendo recompensas ou penalidades por suas ações34. É aplicado em robótica e jogos. 
 - **Técnicas**:
-  - Agrupamento, Classificação, Regressão, Engenharia de Recursos.
-  - Máquinas de Vetores de Suporte (SVM), Árvores de Decisão.
+    - Agrupamento (Clustering): Técnica não supervisionada para agrupar dados similares, como o algoritmo K-Means.
+  - Classificação: Usada para categorizar dados em classes predefinidas. Algoritmos comuns incluem Árvores de Decisão, Naive Bayes e Support Vector Machines (SVM).
+  - Regressão: Utilizada para prever valores numéricos contínuos. A Regressão Linear é um exemplo comum.
+  - Máquinas de Vetores de Suporte (SVM): Algoritmo versátil usado tanto para classificação quanto para regressão.
+  - Árvores de Decisão: Modelo de aprendizado que usa uma estrutura de árvore para tomar decisões baseadas em características dos dados.
+   - Redes Neurais: Inspiradas no funcionamento do cérebro humano, são usadas para tarefas complexas como reconhecimento de imagem e processamento de linguagem natural
 - **Aplicações**:
-  - Análise preditiva, Sistemas de recomendação.
+   - Análise Preditiva: Utilizada para prever tendências futuras com base em dados históricos, como previsão de vendas ou demanda.
+  - Sistemas de Recomendação: Empregados por plataformas como Netflix e Amazon para sugerir produtos ou conteúdos personalizados aos usuários.
+  - Detecção de Fraudes: Usado por instituições financeiras para identificar transações suspeitas em tempo real.
+  - Reconhecimento de Imagem e Voz: Aplicado em sistemas de segurança, assistentes virtuais e carros autônomos.
+  - Diagnósticos Médicos: Auxilia profissionais de saúde na detecção precoce de doenças e na análise de imagens médicas.
+  - Otimização de Processos: Utilizado na indústria para melhorar a eficiência operacional e prever necessidades de manutenção
 
 ## **5. Deep Learning (DL)**
 - **Definição**: Subconjunto de ML que utiliza redes neurais profundas.
@@ -155,5 +170,6 @@ markmap:
 ## **11. Considerações Finais**
 - "Queimando neurônios e explorando o futuro da IA."
 
+## [Todos os Serviços AWS&Salesforce  -              Gé Tavares](https://rogtavares.github.io/AWS_getavares.github.io/)
 
 getavares v5
