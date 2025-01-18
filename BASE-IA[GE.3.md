@@ -192,9 +192,10 @@ Oferece infraestrutura completa para treinar, ajustar (fine-tune) e implantar LL
  - **12.16 Amazon Transcribe** e **12.18 Amazon Translate**: Resultados de transcrição e tradução podem ser alimentados a LLMs para análise e geração de respostas. 
 
 
-## **13. Considerações Finais**
-- "Queimando neurônios e explorando o futuro da IA."
 
-## [Todos os Serviços AWS&Salesforce  -              Gé Tavares](https://rogtavares.github.io/AWS_getavares.github.io/)
+## 12.[ Todos os Serviços AWS&Salesforce  -              Gé Tavares](https://rogtavares.github.io/AWS_getavares.github.io/)
+
+## **Considerações Finais**
+- "Queimando neurônios e explorando o futuro da IA."
 
 getavares v6
