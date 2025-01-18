@@ -190,7 +190,7 @@ Um decodificador recria os dados originais a partir dessa representação latent
 
 - **10.1 Amazon Bedrock**
 **Por que está relacionado a LLMs**?
-**É uma das soluções mais diretas da AWS para LLMs. Permite acessar modelos de linguagem pré-treinados e IA generativa** (como 12.2.1 Amazon Nova ) via uma API única, facilitando a integração com aplicações de negócios.
+**É uma das soluções mais diretas da AWS para LLMs. Permite acessar modelos de linguagem pré-treinados e IA generativa** via uma API única, facilitando a integração com aplicações de negócios.
 - **10.2 Amazon Comprehend**
 **Por que está relacionado a LLMs**?
 Focado em extração de insights de texto, como análise de sentimentos, classificação de documentos e extração de entidades. Internamente, pode ser baseado em LLMs menores para tarefas específicas de NLP.
