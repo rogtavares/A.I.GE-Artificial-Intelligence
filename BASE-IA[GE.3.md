@@ -64,11 +64,27 @@ markmap:
   - Reconhecimento de imagem, PNL, Veículos autônomos.
 
 ## **6. IA Generativa (Ge AI)**
-- **Definição**: Geração de novo conteúdo como imagens, texto ou música.
-- **Técnicas**:
-  - GANs, VAEs, LLMs.
-- **Aplicações**:
-  - Geração de texto (ChatGPT), Imagens (DALL-E), Música.
+- **Definição**:
+     - IA focada na criação de conteúdo original, como imagens, textos, sons e vídeos, usando modelos avançados. Três técnicas centrais frequentemente associadas à IA Generativa incluem 
+
+- **GANs** (Generative Adversarial Networks),
+    - as GANs consistem em duas redes neurais que competem entre si:
+    - Gera dados falsos tentando enganar o discriminador.
+    - Discriminador: Avalia se os dados recebidos são reais ou gerados.
+Funcionamento: Durante o treinamento, o gerador melhora continuamente até produzir dados tão realistas que o discriminador tem dificuldade em diferenciá-los dos dados reais.
+Aplicações:
+Criação de imagens realistas (ex.: rostos humanos com StyleGAN).
+Geração de arte digital e design.
+Aumento de dados para treinamento de modelos de IA.    
+- **VAEs** (Variational Autoencoders)
+    - são uma abordagem probabilística para compressão e reconstrução de dados.
+Um codificador transforma os dados de entrada em uma representação comprimida (latente).
+Um decodificador recria os dados originais a partir dessa representação latente. 
+  
+- **LLMs** (Large Language Models)
+    - **VEJA 7. Large Language Models (LLMs)**
+   
+
 
 ## **7. Large Language Models (LLMs)**
 - **Definição**: Modelos treinados em grandes volumes de texto e código.
