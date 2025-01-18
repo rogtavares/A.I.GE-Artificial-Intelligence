@@ -1,3 +1,11 @@
+---
+markmap:
+  maxWidth: 300
+  initialExpandLevel: 2
+  htmlParser:
+    selector: h1,h2,h3,ul,ol,li,table,pre
+---
+
 # GE-Artificial-Intelligence (IA)
 
 ## [TODOS SERVIÇOS AWS e SALESFORCE  GÉTAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)
