@@ -84,6 +84,9 @@ markmap:
 
 ## **9. IA Responsável**
 - **Práticas**: Questões éticas no uso da IA.
+- [Transforme a IA responsável da teoria em prática](https://aws.amazon.com/pt/ai/responsible-ai/)
+- Criando aplicações de IA responsáveis com Guardrails 
+- [Introdução aos Guardrails para LLMs](https://aws.amazon.com/pt/blogs/machine-learning/build-safe-and-responsible-generative-ai-applications-with-guardrails/)
 - **Ferramentas AWS**:
   - **SageMaker Clarify**: Detecção de vieses e explicação de previsões.
 
