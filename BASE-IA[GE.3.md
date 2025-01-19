@@ -11,7 +11,7 @@ markmap:
 
 ## **1. Fundamentos de IA e ML**
 - **O que é Inteligência Artificial (IA)?**
-  - Campo da ciência focado no desenvolvimento de sistemas inteligentes.
+  - Campo amplo da ciência da computação para criar máquinas capazes de executar tarefas que exigem inteligência humana.  
   - Etapas: Coleta de dados, seleção de algoritmos, treinamento, teste e implantação.
 - **Arquitetura de Aplicações de IA**
   - **Camada de Dados**: Organiza e prepara os dados.
@@ -19,8 +19,8 @@ markmap:
 
 ## **2. Diferenças entre IA, ML, DL e IA Generativa**
 - **IA**: Campo geral que engloba ML, DL e IA Generativa.
-- **ML**: Aprendizado a partir de dados.
-- **DL**: Redes neurais para padrões complexos em grandes volumes de dados.
+- **ML**:  Subconjunto focado no aprendizado a partir de dados para tomada de decisão.
+- **DL**: (Redes neurais) : Subconjunto do ML que usa redes neurais profundas para aprender com grandes volumes de dados..
 - **IA Generativa**: Criação de conteúdo novo baseado em dados de treinamento.
 
 ## **3. Modelos Base (Foundation Models)**
