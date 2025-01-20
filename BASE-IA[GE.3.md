@@ -193,7 +193,7 @@ Um decodificador recria os dados originais a partir dessa representação latent
 ### **10.18 AWS Trainium**
 - Chip de ML desenvolvido pela AWS para treinamento de deep learning (DL) com grandes modelos de parâmetros.
 
-## **11. Serviços que utilizam ou suportam **LLMs** diretamente:
+## **11. Serviços que utilizam ou suportam **LLMs** diretamente:**
 
 - **10.1 Amazon Bedrock**
 **Por que está relacionado a LLMs**?
