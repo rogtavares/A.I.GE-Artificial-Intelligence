@@ -107,7 +107,12 @@ Um decodificador recria os dados originais a partir dessa representação latent
 
 ## **10. Serviços AWS para IA e ML**
 ### **10.1 Amazon Bedrock**
-- Acesso a Foundation Models via API.
+-  é um serviço gerenciado de IA generativa que permite acessar e integrar modelos base\\\\ **(Foundation Models)** de parceiros como Anthropic, Stability AI, e AWS, **sem precisar gerenciá-los diretamente**.
+
+  
+    - Simplicidade: API gerenciada, sem necessidade de infraestrutura.
+    - Flexibilidade: Escolha de diferentes modelos base conforme o caso de uso.
+    - Personalização: Ajuste fino (fine-tuning) dos modelos para aplicações específicas.
   - **Amazon Nova**: Modelos multimodais.
     - **Amazon Nova Micro**: Texto rápido e econômico.
     - **Amazon Nova Lite**: Multimodal, custo-benefício.
@@ -121,84 +126,71 @@ Um decodificador recria os dados originais a partir dessa representação latent
 
 ### **10.3 Amazon SageMaker**
 - Criação, treinamento e implantação de modelos de ML.
-     - **10.3.1 Amazon SageMaker Data Wrangler**
-  \\Reduz o tempo de preparação de dados tabulares e imagens para ML de semanas para minutos, simplificando o processo de engenharia de recursos.
+     -  **10.3.1 SageMaker JumpStart**
+  Hub de ML para avaliar, comparar e selecionar Foundation Models (FMs).
+  Modelos pré-treinados personalizáveis 
+
+     - **10.3.2 Amazon SageMaker Data Wrangler**
+   Reduz o tempo de preparação de dados tabulares e imagens para ML de semanas para minutos, simplificando o processo de engenharia de recursos.
+
+    -  **10.3.3 SageMaker Model Dashboard**
+  Portal centralizado no console do SageMaker para visualizar, pesquisar e rastrear modelos. Permite monitorar modelos implantados para inferência, usados em transformações em lote ou hospedados em endpoints.
+
+  -  **10.3.3 Amazon SageMaker Clarify** 
+  Identifica vieses na preparação de dados sem necessidade de código. Analisa recursos de entrada, como gênero ou idade, para detectar possíveis vieses e promover análises éticas.
 
 
-   -  **10.3.2 SageMaker Model Dashboard**
-Portal centralizado no console do SageMaker para visualizar, pesquisar e rastrear modelos. Permite monitorar modelos implantados para inferência, usados em transformações em lote ou hospedados em endpoints.
-
-  -  **Amazon SageMaker Clarify** 
-Identifica vieses na preparação de dados sem necessidade de código. Analisa recursos de entrada, como gênero ou idade, para detectar possíveis vieses e promover análises éticas.
-
-
-  - **Amazon SageMaker Feature Store**
+  - **10.3.4 Amazon SageMaker Feature Store**
  Repositório gerenciado para armazenar, compartilhar e gerenciar recursos usados como entradas em modelos de ML durante treinamento e inferência.
 
-### **10.4 Outros Serviços**
-- **Amazon Lex**: Bots conversacionais.
-- **Amazon Polly**: Texto para fala.
-- **Amazon Rekognition**: Análise de imagens e vídeos.
-- **Amazon Transcribe**: Áudio para texto.
-- **Amazon Translate**: Tradução automática.
 
-### **10.5 Amazon DeepLens**
+### **10.4 Amazon DeepLens**
 - Câmera para implementar modelos de visão computacional.
 
-### **10.6 Amazon Fraud Detector**
+### **10.5 Amazon Fraud Detector**
 - Detecção de fraudes online com ML.
 
-### **10.7 Amazon Forecast**
+### **10.6 Amazon Forecast**
 - Previsão de resultados de negócios usando ML.
 
-### **10.8 AWS Glue DataBrew**
+### **10.7 AWS Glue DataBrew**
 - Limpeza e transformação de dados para análises e ML.
 
-### **10.9 Amazon Kendra**
+### **10.8 Amazon Kendra**
 - Experiências de conversação seguras com IA generativa.
 
-### **10.10 Amazon Lex**
+### **10.9 Amazon Lex**
 - Bots conversacionais com interfaces de voz e texto.
 
-### **10.11 Amazon Polly**
+### **10.10 Amazon Polly**
 - Vozes humanas realistas para múltiplos idiomas.
 
-### **10.12 Amazon Personalize**
+### **10.11 Amazon Personalize**
 - Recomendação personalizada em tempo real.
 
-### **10.13 Amazon Q**
+### **10.12 Amazon Q**
 - **Amazon Q Developer**: Assistente para desenvolvimento e manutenção de software.
 - **Amazon Q Business**: Assistente para consultas e geração de conteúdo.
 
-### **10.14 Amazon Rekognition**
+### **10.13 Amazon Rekognition**
 - Reconhecimento de imagens e vídeos.
 
-### **10.15 Amazon SageMaker**
-- Criação, treinamento e implantação de modelos de ML gerenciados.
-
-#### **10.15.1 SageMaker JumpStart**
-- Hub de ML para avaliar, comparar e selecionar Foundation Models (FMs).
-- Modelos pré-treinados personalizáveis para casos de uso com dados específicos.
-
-#### **10.15.2 SageMaker Clarify**
-- Identificação de vieses durante a preparação de dados sem escrever código.
-
-### **10.16 Amazon Textract**
+### **10.14 Amazon Textract**
 - Extração automática de texto e dados de documentos.
 
-### **10.17 Amazon Transcribe**
+### **10.15 Amazon Transcribe**
 - Converte entrada de áudio em texto.
 
-### **10.18 Amazon Translate**
+### **10.16 Amazon Translate**
 - Tradução automática fluente e precisa.
 
-### **10.19 AWS Panorama**
+### **10.17 AWS Panorama**
 - Processamento de vídeo local em tempo real.
 
-### **10.20 AWS Trainium**
+### **10.18 AWS Trainium**
 - Chip de ML desenvolvido pela AWS para treinamento de deep learning (DL) com grandes modelos de parâmetros.
 
-## 11. Serviços que utilizam ou suportam **LLMs** diretamente:
+## **11. Serviços que utilizam ou suportam **LLMs** diretamente:
 
 - **10.1 Amazon Bedrock**
 **Por que está relacionado a LLMs**?
