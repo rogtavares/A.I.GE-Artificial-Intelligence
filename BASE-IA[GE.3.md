@@ -143,6 +143,9 @@ Um decodificador recria os dados originais a partir dessa representação latent
   - **10.3.4 Amazon SageMaker Feature Store**
  Repositório gerenciado para armazenar, compartilhar e gerenciar recursos usados como entradas em modelos de ML durante treinamento e inferência.
 
+  - **10.3.5 Amazon SageMaker Canvas** 
+  Permite que usuários sem habilidades de codificação criem modelos de aprendizado de máquina com base em dados existentes.
+
 
 ### **10.4 Amazon DeepLens**
 - Câmera para implementar modelos de visão computacional.
