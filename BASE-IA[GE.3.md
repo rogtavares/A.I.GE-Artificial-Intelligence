@@ -121,6 +121,19 @@ Um decodificador recria os dados originais a partir dessa representação latent
 
 ### **10.3 Amazon SageMaker**
 - Criação, treinamento e implantação de modelos de ML.
+     - **10.3.1 Amazon SageMaker Data Wrangler**
+  \\Reduz o tempo de preparação de dados tabulares e imagens para ML de semanas para minutos, simplificando o processo de engenharia de recursos.
+
+
+   -  **10.3.2 SageMaker Model Dashboard**
+Portal centralizado no console do SageMaker para visualizar, pesquisar e rastrear modelos. Permite monitorar modelos implantados para inferência, usados em transformações em lote ou hospedados em endpoints.
+
+  -  **Amazon SageMaker Clarify** 
+Identifica vieses na preparação de dados sem necessidade de código. Analisa recursos de entrada, como gênero ou idade, para detectar possíveis vieses e promover análises éticas.
+
+
+  - **Amazon SageMaker Feature Store**
+ Repositório gerenciado para armazenar, compartilhar e gerenciar recursos usados como entradas em modelos de ML durante treinamento e inferência.
 
 ### **10.4 Outros Serviços**
 - **Amazon Lex**: Bots conversacionais.
