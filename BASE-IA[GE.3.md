@@ -12,7 +12,7 @@ markmap:
 - **O que é Inteligência Artificial (IA)?**
   - Campo amplo para criar máquinas capazes de executar tarefas que exigem inteligência humana//// treinamento, teste e implantação.
   -  IA é a raiz do diagrama, com os demais tópicos conectados como **subconjuntos ou especializações**.
-  - 
+   
 - **Arquitetura de Aplicações de IA**
   - **Camada de Dados**: Organiza e prepara os dados.
   - **Camada de Modelo**: Responsável pelas decisões do sistema, utilizando modelos treinados.
@@ -36,7 +36,7 @@ markmap:
    - **Supervisionado**,
        - O algoritmo é treinado com dados **rotulados**, onde as entradas e saídas desejadas são conhecidas. Exemplos incluem classificação de e-mails como spam ou não spam. 
   - **Não Supervisionado**.
-      - O algoritmo trabalha com dados não rotulados, buscando identificar padrões e estruturas por conta própria34. É usado para clustering e detecção de anomalias.  
+      - O algoritmo trabalha com **dados não rotulados**, buscando identificar padrões e estruturas por conta própria. É usado para clustering e detecção de anomalias.  
   - **Semi-Supervisionado**
      -  Combina **dados rotulados e não rotulados** para treinamento, útil quando a rotulação completa é custosa ou impraticável
   - **Reforço**
@@ -121,32 +121,48 @@ Um decodificador recria os dados originais a partir dessa representação latent
     - **Amazon Nova Canvas**: Geração de imagens.
     - **Amazon Nova Reel**: Criação de vídeos.
 
-### **10.2 Amazon Comprehend**
-- Extração de insights de texto.
 
-### **10.3 Amazon SageMaker**
+### **10.2 Amazon SageMaker**
 - Criação, treinamento e implantação de modelos de ML.
-     -  **10.3.1 SageMaker JumpStart**
-  Hub de ML para avaliar, comparar e selecionar Foundation Models (FMs).
-  Modelos pré-treinados personalizáveis 
+     -  **10.2.1 SageMaker AutoPilot**
+   Automatiza criação de modelos de ML, incluindo explicações.
+     - **10.2.2 Amazon SageMaker Canvas** 
+  Interface sem código para criar modelos e previsões de ML. (Permite que usuários sem habilidades de codificação criem ML)
 
-     - **10.3.2 Amazon SageMaker Data Wrangler**
-   Reduz o tempo de preparação de dados tabulares e imagens para ML de semanas para minutos, simplificando o processo de engenharia de recursos.
+    -  **10.2.3 SageMaker Clarify**
+  Detecta e analisa vieses em dados e modelos de ML.
 
-    -  **10.3.3 SageMaker Model Dashboard**
-  Portal centralizado no console do SageMaker para visualizar, pesquisar e rastrear modelos. Permite monitorar modelos implantados para inferência, usados em transformações em lote ou hospedados em endpoints.
-
-  -  **10.3.3 Amazon SageMaker Clarify** 
-  Identifica vieses na preparação de dados sem necessidade de código. Analisa recursos de entrada, como gênero ou idade, para detectar possíveis vieses e promover análises éticas.
-
-
-  - **10.3.4 Amazon SageMaker Feature Store**
- Repositório gerenciado para armazenar, compartilhar e gerenciar recursos usados como entradas em modelos de ML durante treinamento e inferência.
-
-  - **10.3.5 Amazon SageMaker Canvas** 
-  Permite que usuários sem habilidades de codificação criem modelos de aprendizado de máquina com base em dados existentes.
-
-
+    -   **10.2.4 Amazon SageMaker Data Wrangler**
+  Simplifica preparação de dados com transformações e integração de fontes.
+    - **10.2.5 Amazon SageMaker Debugger**
+  Monitora e identifica problemas no treinamento de modelos.
+   - **10.2.6  Amazon SageMaker Distributed Training**
+    Treina grandes modelos em clusters distribuídos para maior eficiência.
+   - **10.2.7  Amazon SageMaker Edge Manager**
+   Gerencia e monitora modelos implantados em dispositivos de borda. 
+     
+   - **10.2.8  Amazon SageMaker Feature Store**
+   Repositório gerenciado para compartilhar recursos de ML.
+   - **10.2.9  Amazon SageMaker Ground Truth**
+   Rotulação eficiente de dados com automação e revisão manual. 
+   - **10.2.10 Amazon SageMaker Inference Recommender**
+   Sugere configurações ideais de inferência para reduzir custos e latência. 
+   - **10.2.11 Amazon SageMaker Model Card**
+   Documenta detalhes críticos do modelo para governança e relatórios 
+   - **10.2.12 Amazon SageMaker Model Dashboard**
+   Centraliza a gestão de modelos em uma única interface
+   - **10.2.13 Amazon SageMaker Model Monitor**
+   Monitora a qualidade e desvios dos modelos em produção. 
+   - **10.2.14 Amazon SageMaker Neo**
+   Otimiza modelos para execução em dispositivos de borda e na nuvem.
+   - **10.2.15 Amazon SageMaker Pipeline**
+   Automatiza fluxos de trabalho de **ML com integração e controle de versão**. 
+   - **10.2.16 Amazon SageMaker Studio** (IDEA)
+IDE unificada para criar, treinar e implantar modelos de ML.
+  - **10.2.17 Amazon SageMaker Training Compiler** 
+Acelera treinamento de modelos de deep learning em GPUs.
+### **10.3 Amazon Comprehend**
+- Extração de insights de texto.
 ### **10.4 Amazon DeepLens**
 - Câmera para implementar modelos de visão computacional.
 
@@ -172,8 +188,10 @@ Um decodificador recria os dados originais a partir dessa representação latent
 - Recomendação personalizada em tempo real.
 
 ### **10.12 Amazon Q**
-- **Amazon Q Developer**: Assistente para desenvolvimento e manutenção de software.
-- **Amazon Q Business**: Assistente para consultas e geração de conteúdo.
+
+- O **Amazon Q** é um assistente com inteligência artificial generativa (gen AI) projetado para acelerar o desenvolvimento de software e alavancar dados empresariais
+    - **Amazon Q Developer**: Assistente para desenvolvimento e manutenção de software.
+    - **Amazon Q Business**: Assistente para consultas e geração de conteúdo.
 
 ### **10.13 Amazon Rekognition**
 - Reconhecimento de imagens e vídeos.
