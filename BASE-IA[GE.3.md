@@ -93,9 +93,14 @@ Um decodificador recria os dados originais a partir dessa representação latent
   - Alucinações, preconceitos nos dados.
 
 ## **8. Pipeline de ML com Serviços AWS**
-- **Coleta de Dados**: Amazon S3, AWS Glue.
-- **Treinamento de Modelos**: Amazon SageMaker.
-- **Avaliação e Implantação**: SageMaker Model Monitor, CloudWatch.
+-  é como uma linha de montagem para o **aprendizado de máquina**. 
+-  Ele organiza e automatiza as etapas necessárias para transformar dados brutos em insights acionáveis por meio de modelos de ML.
+   - **Vantagens de um Pipeline de ML**
+   - **Automatização**: Reduz trabalho manual e acelera processos.
+   - **Escalabilidade**: Suporta grandes volumes de dados e múltiplos modelos.
+   - **Reprodutibilidade**: Garante que os resultados possam ser repetidos de forma consistente.
+   - **Eficiência**: Otimiza recursos e tempo em cada etapa.
+   - **Gerenciamento Centralizado**: Facilita a visualização e o controle de todas as etapas.  
 
 ## **9. IA Responsável**
 - **Práticas**: Questões éticas no uso da IA.
@@ -126,40 +131,43 @@ Um decodificador recria os dados originais a partir dessa representação latent
 - Criação, treinamento e implantação de modelos de ML.
      -  **10.2.1 SageMaker AutoPilot**
    Automatiza criação de modelos de ML, incluindo explicações.
-     - **10.2.2 Amazon SageMaker Canvas** 
+
+    -  **10.2.2 SageMaker Batch Transform**
+    Realize inferência em lote para grandes volumes de dados.  
+     - **10.2.3 Amazon SageMaker Canvas** 
   Interface sem código para criar modelos e previsões de ML. (Permite que usuários sem habilidades de codificação criem ML)
 
-    -  **10.2.3 SageMaker Clarify**
+    -  **10.2.4 SageMaker Clarify**
   Detecta e analisa vieses em dados e modelos de ML.
 
-    -   **10.2.4 Amazon SageMaker Data Wrangler**
+    -   **10.2.5 Amazon SageMaker Data Wrangler**
   Simplifica preparação de dados com transformações e integração de fontes.
-    - **10.2.5 Amazon SageMaker Debugger**
-  Monitora e identifica problemas no treinamento de modelos.
-   - **10.2.6  Amazon SageMaker Distributed Training**
+    - **10.2.6 Amazon SageMaker Debugger**
+  Monitora e identifica problemas no treinamento de modelos.Analise métricas de desempenho do modelo em tempo real.
+   - **10.2.7  Amazon SageMaker Distributed Training**
     Treina grandes modelos em clusters distribuídos para maior eficiência.
-   - **10.2.7  Amazon SageMaker Edge Manager**
+   - **10.2.8  Amazon SageMaker Edge Manager**
    Gerencia e monitora modelos implantados em dispositivos de borda. 
      
-   - **10.2.8  Amazon SageMaker Feature Store**
+   - **10.2.9  Amazon SageMaker Feature Store**
    Repositório gerenciado para compartilhar recursos de ML.
-   - **10.2.9  Amazon SageMaker Ground Truth**
+   - **10.2.10  Amazon SageMaker Ground Truth**
    Rotulação eficiente de dados com automação e revisão manual. 
-   - **10.2.10 Amazon SageMaker Inference Recommender**
+   - **10.2.11 Amazon SageMaker Inference Recommender**
    Sugere configurações ideais de inferência para reduzir custos e latência. 
-   - **10.2.11 Amazon SageMaker Model Card**
+   - **10.2.12 Amazon SageMaker Model Card**
    Documenta detalhes críticos do modelo para governança e relatórios 
-   - **10.2.12 Amazon SageMaker Model Dashboard**
+   - **10.2.13 Amazon SageMaker Model Dashboard**
    Centraliza a gestão de modelos em uma única interface
-   - **10.2.13 Amazon SageMaker Model Monitor**
+   - **10.2.14 Amazon SageMaker Model Monitor**
    Monitora a qualidade e desvios dos modelos em produção. 
-   - **10.2.14 Amazon SageMaker Neo**
+   - **10.2.15 Amazon SageMaker Neo**
    Otimiza modelos para execução em dispositivos de borda e na nuvem.
-   - **10.2.15 Amazon SageMaker Pipeline**
+   - **10.2.16 Amazon SageMaker Pipeline**
    Automatiza fluxos de trabalho de **ML com integração e controle de versão**. 
-   - **10.2.16 Amazon SageMaker Studio** (IDEA)
+   - **10.2.17 Amazon SageMaker Studio** (IDEA)
 IDE unificada para criar, treinar e implantar modelos de ML.
-  - **10.2.17 Amazon SageMaker Training Compiler** 
+  - **10.2.18 Amazon SageMaker Training Compiler** 
 Acelera treinamento de modelos de deep learning em GPUs.
 ### **10.3 Amazon Comprehend**
 - Extração de insights de texto.
@@ -239,4 +247,4 @@ Oferece infraestrutura completa para treinar, ajustar (fine-tune) e implantar LL
 ## **Considerações Finais**
 - "Queimando neurônios e explorando o futuro da IA."
 
-getavares v6
+getavares v7
