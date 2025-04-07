@@ -20,12 +20,19 @@ markmap:
 ## <span style="color:#000080">📊 Machine Learning (ML)</span>
 - **Definição**: Algoritmos que aprendem com dados  
 - 🔁 **Tipos de Aprendizado**:
-  - **Supervisionado** → Tipo de ML onde o modelo é treinado em dados rotulados (Ex.: Regressão, Classificação)  
-  - **Não supervisionado** → Tipo de ML onde o modelo aprende padrões a partir de dados não rotulados (Ex.: Clustering, Redução de Dimensão)  
-  - **Semi-Supervisionado** → Tipo de ML que combina dados rotulados e não rotulados para treinamento  
-  - **Aprendizado por Reforço** → Ex.: Jogos, Robótica  
+  - **Supervisionado** → Tipo de ML onde o modelo é treinado em **dados rotulados** (Ex.: Regressão, Classificação)  
+  - **Não supervisionado** → Tipo de ML onde o modelo aprende padrões a partir de **dados não rotulados** (Ex.: Clustering, Redução de Dimensão)  
+  - **Semi-Supervisionado** → Tipo de ML que combina **dados rotulados e não rotulados** para treinamento  
+  - **Aprendizado por Reforço** → Tipo de aprendizado onde um agente aprende a tomar decisões interagindo com um ambiente para maximizar recompensas  
 - 🛠️ **Técnicas**:
-  - *Engenharia de Atributos*, *Validação Cruzada*, *Otimização de Hiperparâmetros*  
+  - *Engenharia de Atributos (Feature Engineering)* → Processo de criação, seleção ou transformação de recursos para melhorar o desempenho do modelo  
+  - *Validação Cruzada*, *Otimização de Hiperparâmetros*  
+  - **MLOps** → Práticas para gerenciar o ciclo de vida do aprendizado de máquina (desenvolvimento, implantação, monitoramento e manutenção)  
+  - **Data Lineage** → Rastreamento de onde vêm os dados e como eles são transformados ao longo do tempo  
+- ⚖️ **Problemas Comuns**:
+  - **Bias (Viés)** → Erro sistemático na amostra de dados ou no modelo, levando a resultados injustos  
+  - **Overfitting** → Quando um modelo se ajusta muito bem aos dados de treinamento, mas não generaliza bem para dados não vistos  
+  - **Underfitting** → Quando o modelo não captura a complexidade dos dados e tem baixo desempenho em treinamento e dados não vistos  
 
 ---
 
@@ -37,6 +44,9 @@ markmap:
   - *TensorFlow*, *PyTorch*, *Keras*  
 - 🌐 **Aplicações Avançadas**:
   - Processamento de Linguagem Natural (NLP), Reconhecimento Facial, Tradução Automática  
+- 🛠️ **Conceitos Importantes**:
+  - **Embeddings** → Representações numéricas de dados, como texto, em vetores que preservam relações semânticas  
+  - **Context Window** → O número de tokens (palavras ou partes de palavras) que um modelo de linguagem pode considerar para gerar texto  
 
 ---
 
@@ -48,6 +58,7 @@ markmap:
     - Exemplos: GPT-4, Claude, LLaMA, Gemini, Amazon Titan  
 - 🛠️ **Ferramentas e Aplicações**:
   - Chatbots, Geração de Código, Assistentes Inteligentes  
+  - **Guardrails** → Mecanismos de controle para prevenir o uso indevido de modelos de IA, como filtros de conteúdo inadequado  
   - **Amazon Bedrock** → Integração com modelos generativos  
 
 ---
@@ -66,6 +77,7 @@ markmap:
 - 🧠 **SageMaker Distributed Training** → Clusters para grandes modelos  
 - 🌍 **SageMaker Edge Manager** → Modelos em dispositivos de borda  
 - 📊 **SageMaker Model Monitor** → Monitora modelos em produção  
+- 📋 **Model Registry** → Repositório centralizado para rastrear, gerenciar e versionar modelos  
 
 ### 🤖 <span style="color:#9370DB">Modelos Prontos e GenAI</span>
 - **Amazon Bedrock** → Acesso a FMs como Claude, Titan, LLaMA  
@@ -100,5 +112,3 @@ markmap:
 
 ### ➕ <span style="color:#FF4500">**+1 [MAPA IMPERDÍVEL GE TAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)**</span>  
 🚀 Explore o mapa completo sobre AWS e Arquitetura de Soluções
-
-getavares v2.4.5
