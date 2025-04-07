@@ -127,8 +127,8 @@ markmap:
 
 ---
 
-### ➕ <span style="color:#FF4500">**+1 MAPA MENTAL IMPERDÍVEL GE TAVARES AWS:**</span>  
+### ➕ <span style="color:#FF4500">**+1 [MAPA IMPERDÍVEL GE TAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)  AWS:**</span>  clica no meio do mouse e arrasta para ver o mapa completo!
 🚀 **Explore também o mapa completo sobre AWS e Arquitetura de Soluções**  
-🔗 [👉 Clique aqui para acessar o mapa AWS](https://rogtavares.github.io/AWS_getavares.github.io/)  
+🔗
 
 getavares -v9.0.0 - 2025-04
