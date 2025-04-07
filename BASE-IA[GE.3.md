@@ -4,7 +4,7 @@ markmap:
   colorFreezeLevel: 2
 ---
 
-# <span style="color:#1E90FF">🤖 GE-Artificial-Intelligence (IA)</span>
+# <span style="color:#00008B">🤖 GE-Artificial-Intelligence (IA)</span>
 
 ## 🧠 Conceitos Fundamentais
 - **IA**: Sistemas que simulam a inteligência humana  
@@ -17,7 +17,7 @@ markmap:
 
 ---
 
-## <span style="color:#FFD700">📊 **Machine Learning (ML)**</span>
+## <span style="color:#000080">📊 Machine Learning (ML)</span>
 - **Definição**: Algoritmos que aprendem com dados  
 - 🔁 **Tipos de Aprendizado**:
   - **Supervisionado** → Tipo de ML onde o modelo é treinado em dados rotulados (Ex.: Regressão, Classificação)  
@@ -29,7 +29,7 @@ markmap:
 
 ---
 
-## <span style="color:#FF4500">🧠 **Deep Learning (DL)**</span>
+## <span style="color:#FF4500">🧠 Deep Learning (DL)</span>
 - **Redes Neurais Artificiais (RNA)**  
   - **CNNs** → Visão computacional (Ex.: Reconhecimento de Imagens)  
   - **RNNs** → Sequências e séries temporais (Ex.: Previsão de Texto)  
@@ -40,7 +40,7 @@ markmap:
 
 ---
 
-## <span style="color:#FF8C00">🎨 **IA Generativa**</span>
+## <span style="color:#FF8C00">🎨 IA Generativa</span>
 - **Definição**: Geração de conteúdo criativo (texto, imagem, áudio, código)  
 - ✨ **Modelos**:
   - **GANs**, **VAEs**, **Diffusion Models**  
@@ -52,13 +52,13 @@ markmap:
 
 ---
 
-## <span style="color:#9370DB">☁️ **AWS para IA & ML**</span>
+## <span style="color:#9370DB">☁️ AWS para IA & ML</span>
 
-### 🧰 <span style="color:#9370DB">**Serviços de Preparação de Dados**</span>
+### 🧰 <span style="color:#9370DB">Serviços de Preparação de Dados</span>
 - 📦 **Amazon SageMaker Data Wrangler** → Agrega e prepara dados em minutos  
 - 📊 **Amazon SageMaker Feature Store** → Repositório para recursos reutilizáveis  
 
-### 🚀 <span style="color:#9370DB">**Treinamento e Deploy**</span>
+### 🚀 <span style="color:#9370DB">Treinamento e Deploy</span>
 - 💻 **Amazon SageMaker Studio** → Ambiente visual completo para ML  
 - ⚙️ **SageMaker AutoPilot** → Automação do treinamento  
 - 🧮 **SageMaker Batch Transform** → Inferência em lote  
@@ -67,12 +67,12 @@ markmap:
 - 🌍 **SageMaker Edge Manager** → Modelos em dispositivos de borda  
 - 📊 **SageMaker Model Monitor** → Monitora modelos em produção  
 
-### 🤖 <span style="color:#9370DB">**Modelos Prontos e GenAI**</span>
+### 🤖 <span style="color:#9370DB">Modelos Prontos e GenAI</span>
 - **Amazon Bedrock** → Acesso a FMs como Claude, Titan, LLaMA  
   - 🎯 **Amazon Nova** (multimodal):  
     - ⚡ Nova Micro, 🧠 Nova Lite, 🚀 Nova Pro, 🔮 Nova Premier *(lançamento em 2025)*  
 
-### 🔊 <span style="color:#9370DB">**Visão Computacional & Voz**</span>
+### 🔊 <span style="color:#9370DB">Visão Computacional & Voz</span>
 - 📷 **Amazon Rekognition** → Imagem e vídeo  
 - 📝 **Amazon Textract** → OCR e extração de documentos  
 - 🗣️ **Amazon Transcribe** → Áudio para texto  
@@ -81,7 +81,7 @@ markmap:
 
 ---
 
-## ⚖️ <span style="color:#DC143C">**IA Responsável e Ética**</span>
+## ⚖️ <span style="color:#DC143C">IA Responsável e Ética</span>
 - **Princípios**: Justiça, Transparência, Explicabilidade, Privacidade  
 - 🧠 **Ferramentas**:
   - *SageMaker Clarify*, *Explainability*, *Model Monitor*  
@@ -98,7 +98,7 @@ markmap:
 
 ---
 
-### ➕ <span style="color:#FF4500">**+1 [MAPA IMPERDÍVEL GE TAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)**</span>   ((clique no meio do mouse para abrir em nova aba))
+### ➕ <span style="color:#FF4500">**+1 [MAPA IMPERDÍVEL GE TAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)**</span>  
 🚀 Explore o mapa completo sobre AWS e Arquitetura de Soluções
 
-getavares v2.4.5 
+getavares v2.4.5
