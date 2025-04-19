@@ -1,10 +1,10 @@
 ---
 title: markmap
 markmap:
-  colorFreezeLevel: 2
+  colorFreezeLevel: 4 
 ---
 
-# <span style="color:#00008B">🤖 GE-Artificial-Intelligence (IA)</span>
+# <span style="color:#000010B">🤖 GE-Artificial-Intelligence (IA)</span>
 
 ## 🧠 Conceitos Fundamentais
 - **IA**: Sistemas que simulam a inteligência humana  
@@ -31,8 +31,18 @@ markmap:
   - **Data Lineage** → Rastreamento de onde vêm os dados e como eles são transformados ao longo do tempo  
 - ⚖️ **Problemas Comuns**:
   - **Bias (Viés)** → Erro sistemático na amostra de dados ou no modelo, levando a resultados injustos  
-  - **Overfitting** → Quando um modelo se ajusta muito bem aos dados de treinamento, mas não generaliza bem para dados não vistos  
-  - **Underfitting** → Quando o modelo não captura a complexidade dos dados e tem baixo desempenho em treinamento e dados não vistos  
+    - *Exemplo*: Um modelo de crédito que favorece um grupo específico devido a dados históricos enviesados.  
+    - "Viés": Visão Torta: modelo vê o mundo com óculos tortos. Viés é quando o modelo favorece um lado injustamente.  
+  - **Imparcialidade** → Justiça: Balança da justiça equilibrada. Impessoalidade é tratar todos de forma justa.  
+    - *Exemplo*: Garantir que um modelo de recrutamento avalie candidatos com base apenas em qualificações, sem discriminação.  
+  - **Overfitting (Sobreajuste)** → Quando um modelo se ajusta muito bem aos dados de treinamento, mas não generaliza bem para dados não vistos  
+    - *Exemplo*: Um modelo que acerta 100% no treino, mas falha em novos dados.  
+    - "Sobreajuste": Sabichão do treino: Aluno que decora a apostila, mas não acerta na prova. Sobreajuste aprende demais o treino e falha no teste.  
+  - **Underfitting (Subajuste)** → Quando o modelo não captura a complexidade dos dados e tem baixo desempenho em treinamento e dados não vistos  
+    - *Exemplo*: Um modelo linear tentando prever dados com padrões não lineares.  
+    - "Subajuste": Aluno distraído: Nem estuda direito, nem aprende nada. Subajuste não aprende nem o básico.  
+  - **Explicabilidade** → Caixa de vidro: Você consegue ver como o modelo pensa. Explicabilidade é entender como a IA decide.  
+    - *Exemplo*: Usar SHAP ou LIME para explicar as previsões de um modelo de classificação.
 
 ---
 
