@@ -1,7 +1,20 @@
 ---
-title: markmap
+title: GE Tavares AWS -Mapas Mentais AWS 
 markmap:
-  colorFreezeLevel: 4 
+  colorFreezeLevel: 3 # Define o nível de profundidade em que as cores dos nós são congeladas
+  initialExpandLevel: 2 # Determina o nível inicial de expansão do mapa mental
+  htmlParser:
+    selector: h1,h2,h3,ul,ol,li,table,pre # Elementos HTML que serão analisados para gerar o mapa mental
+  color: '#FFA500' # Cor principal do mapa mental
+  fontSize: 20 # Tamanho da fonte dos textos no mapa mental
+  fontFamily: 'Arial, sans-serif' # Família de fontes usada no mapa mental
+  lineWidth: 2 # Largura das linhas que conectam os nós
+  theme: 'classic' # Tema visual do mapa mental
+  autoFit: true # Ajusta automaticamente o mapa mental para caber na tela
+  autoScroll: true # Habilita o deslocamento automático do mapa mental
+  autoScrollDuration: 0.5 # Duração do deslocamento automático (em segundos)
+  zoomable: true # Permite o zoom no mapa mental
+search.searchOnType: true # Ativa a busca enquanto o usuário digita
 ---
 
 # <span style="color:#000010B">🤖 GE-Artificial-Intelligence (IA)</span>
@@ -120,5 +133,12 @@ markmap:
 
 ---
 
-### ➕ <span style="color:#FF4500">**+1 [MAPA IMPERDÍVEL GE TAVARES](https://rogtavares.github.io/AWS_getavares.github.io/)**</span>  
-🚀 Explore o mapa completo sobre AWS e Arquitetura de Soluções
+### ➕📚 <span style="color:#1E90FF; font-weight:bold;">**[MAPA AWS  GE TAVARES (Completo)](https://rogtavares.github.io/AWS_getavares.github.io/)**</span>  
+🚀 **Descubra o mapa completo sobre AWS e Arquitetura de Soluções!**  
+Explore conceitos avançados, ferramentas e práticas recomendadas para potencializar suas habilidades em IA e ML.
+
+{
+  "workbench.colorCustomizations": {
+    "textPreformat.foreground": "#FF4500"
+  }
+}
