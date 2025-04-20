@@ -116,6 +116,44 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 
 ---
 
+## <span style="color:#32CD32">🔄 Ciclo da IA</span>
+
+- **RESUMÃO (COM ANALOGIAS)**:
+  - "Sempre aprendendo (1), depois afina (2), tenta direto (3), pensa melhor (4), consulta o Google (5) e bota pra rodar na AWS (6)."
+
+- **Etapas do Ciclo**:
+  1. **Continual Pre-Training**  
+     - Tipo "estudar sempre"  
+     - Atualiza o modelo com novos dados  
+     - 🧠 **Sempre aprendendo**  
+
+  2. **Fine-Tuning**  
+     - Tipo "configurar celular novo"  
+     - **Ajuste fino** para tarefas específicas  
+     - 📲 Deixa o modelo do seu jeito  
+
+  3. **Zero-Shot**  
+     - Tipo **"sabe tudo"**  
+     - Acerta sem exemplo ou treino específico  
+     - 🎯 Já vem pronto pro jogo  
+
+  4. **Chain of Thought**  
+     - Tipo **"resolver conta passo a passo"**  
+     - Ensina o modelo a pensar em etapas  
+     - 🧾 Adriano F/  
+
+  5. **RAG (Retrieval-Augmented Generation)**  
+     - Tipo **"colar do Google" (lembra do Balsa?)**  
+     - **Busca dados** antes de responder  
+     - 🔍 Consulta pra não errar  
+
+  6. **AWS**  
+     - Tipo "montar a fábrica"  
+     - Infraestrutura pra rodar tudo  
+     - ☁️ Onde a **mágica acontece**
+
+---
+
 ## ⚖️ <span style="color:#DC143C">IA Responsável e Ética</span>
 - **Princípios**: Justiça, Transparência, Explicabilidade, Privacidade  
 - 🧠 **Ferramentas**:
