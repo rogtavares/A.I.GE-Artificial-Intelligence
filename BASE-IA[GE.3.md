@@ -116,41 +116,81 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 
 ---
 
-## <span style="color:#32CD32">🔄 Ciclo da IA</span>
+## <span style="color:#32CE57">🔄 Ciclo da IA</span>
 
-- **RESUMÃO (COM ANALOGIAS)**:
-  - "Sempre aprendendo (1), depois afina (2), tenta direto (3), pensa melhor (4), consulta o Google (5) e bota pra rodar na AWS (6)."
-
-- **Etapas do Ciclo**:
-  1. **Continual Pre-Training**  
-     - Tipo "estudar sempre"  
+ **Etapas do Ciclo**:
+  1. **Pré-Treinamento**  
+     - Tipo "estudar muito"  
+     - Treinamento inicial com **dados grandes e variados**  
+     - 📚 **Aprendizado básico**
+  2. **Continual Pre-Training**  
+     - Tipo **"estudar sempre"**, Fazer pós-graduação, cursos constantes, ler artigos diários 
      - Atualiza o modelo com novos dados  
      - 🧠 **Sempre aprendendo**  
 
-  2. **Fine-Tuning**  
-     - Tipo "configurar celular novo"  
-     - **Ajuste fino** para tarefas específicas  
+  3. **Fine-Tuning**  
+     - Tipo - 🎨 **Customização** de "configurar celular novo"
+     - Fazer pós-graduação, cursos constantes, ler artigos diários   
+     - **Ajuste fino** para tarefas específicas q vc quer aprender
+      - 🛠️ **Ajuste personalizado**  
      - 📲 Deixa o modelo do seu jeito  
 
-  3. **Zero-Shot**  
-     - Tipo **"sabe tudo"**  
+  4. **Zero-Shot**  
+     - Tipo **Adivinhao** e **"sabe tudo"**
+     - Aprende sem exemplos específicos
      - Acerta sem exemplo ou treino específico  
      - 🎯 Já vem pronto pro jogo  
 
-  4. **Chain of Thought**  
-     - Tipo **"resolver conta passo a passo"**  
+  5. **Chain of Thought**  
+     - Tipo **Cadeia de Pensamento**  
+     - **"resolver conta passo a passo"**
+     - **Raciocínio lógico**
+     - **Passo a passo**  
      - Ensina o modelo a pensar em etapas  
      - 🧾 Adriano F/  
 
-  5. **RAG (Retrieval-Augmented Generation)**  
-     - Tipo **"colar do Google" (lembra do Balsa?)**  
+  6. **RAG (Retrieval-Augmented Generation)**  
+     - Tipo **"colar do Google" (lembra do Balsa?)**
+     - **"sabe tudo com ajudas e Consulta pra não errar"** 
      - **Busca dados** antes de responder  
-     - 🔍 Consulta pra não errar  
 
-  6. **AWS**  
+  7. **AWS**  
      - Tipo "montar a fábrica"  
      - Infraestrutura pra rodar tudo  
      - ☁️ Onde a **mágica acontece**
+
+---
+
+## <span style="color:#000000">🔄 Fluxo de Processamento de IA</span>
+
+- **Descrição do Fluxo**:
+  1. **Instruções (Prompt inicial)**  
+     - O usuário fornece uma pergunta, comando ou instrução.  
+
+  2. **Contexto (opcional)**  
+     - O aplicativo pode enriquecer o prompt com informações adicionais (dados históricos, APIs, bancos de dados etc.).  
+
+  3. **Consulta opcional a fontes de dados externas ou internas via plug-ins**  
+     - Busca informações adicionais para complementar o contexto.  
+
+  4. **Formatação do prompt com dados personalizados e contexto adicional**  
+     - O prompt é ajustado com base nos dados coletados.  
+
+  5. **Envio ao Modelo Fundamental (Foundation Model - FM)**  
+     - O prompt formatado é enviado ao modelo de IA.  
+
+  6. **FM gera a resposta (com ou sem fine-tuning)**  
+     - O modelo processa o prompt e gera uma conclusão.  
+
+  7. **Aplicativo processa a conclusão gerada pelo modelo**  
+     - A resposta gerada é ajustada ou processada pelo aplicativo.  
+
+  8. **Resposta final enviada ao usuário**  
+     - O resultado final é entregue ao usuário.  
+
+- **Etapas Principais**:
+  - **Etapa de Contexto**: Enriquecimento do prompt com dados adicionais.  
+  - **Etapa de Dados de Saída**: Processamento e entrega da resposta final.
 
 ---
 
