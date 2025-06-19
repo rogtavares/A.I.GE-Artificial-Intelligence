@@ -86,6 +86,75 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 
 ---
 
+### 🧩 <span style="color:#FF8C00">Engenharia de Prompt em LLMs</span>
+> ![Prompt Engineering](https://img.icons8.com/color/48/000000/idea-sharing.png)
+- **Otimização Iterativa**: Processo de experimentação e refinamento dos prompts para diferentes tarefas/modelos.
+- 🛠️ **Configurações do LLM**:
+  - ![Token](https://img.icons8.com/fluency/24/token.png) **Comprimento da saída (Token Limit)**
+    - *Exemplo*: Limitar a resposta a 100 tokens para evitar respostas longas demais.
+  - ![Temperature](https://img.icons8.com/fluency/24/temperature.png) **Temperatura** (grau de aleatoriedade)
+    - *Exemplo*: Temperatura 0 para respostas objetivas (ex: cálculo), 0.8 para brainstorming criativo.
+  - ![TopK](https://img.icons8.com/fluency/24/numbered-list.png) **Top-K** e **Top-P** (controle de criatividade/diversidade)
+    - *Exemplo*: Top-K=1 para respostas diretas, Top-P=0.95 para maior variedade.
+  - **Recomendações**: Temperatura baixa para respostas determinísticas, alta para criatividade.
+- 🧠 **Técnicas de Prompting**:
+  - ![Zero-shot](https://img.icons8.com/fluency/24/idea.png) **Zero-shot**:  
+    - *Exemplo*: "Traduza para inglês: Olá, mundo!"
+  - **One-shot**:  
+    - *Exemplo*:  
+      ```
+      Traduza para inglês:
+      Exemplo: 'Bom dia' → 'Good morning'
+      Frase: 'Boa noite'
+      ```
+  - **Few-shot**:  
+    - *Exemplo*:  
+      ```
+      Traduza para inglês:
+      'Bom dia' → 'Good morning'
+      'Boa tarde' → 'Good afternoon'
+      Frase: 'Boa noite'
+      ```
+  - ![System](https://img.icons8.com/fluency/24/settings.png) **Prompting de Sistema**:  
+    - *Exemplo*: "Você é um assistente educado. Responda sempre de forma respeitosa."
+  - **Contextual**:  
+    - *Exemplo*: "Considere que o usuário é um estudante do ensino médio."
+  - **De Papel (Role)**:  
+    - *Exemplo*: "Aja como um professor de matemática."
+  - ![Step-back](https://img.icons8.com/fluency/24/undo.png) **Step-back Prompting**:  
+    - *Exemplo*: "Antes de responder, pense: 'Quais são os fatores principais para resolver este problema?'"
+  - ![Chain of Thought](https://img.icons8.com/fluency/24/chain.png) **Chain of Thought (CoT)**:  
+    - *Exemplo*: "Explique passo a passo como chegou à resposta."
+  - ![Self-consistency](https://img.icons8.com/fluency/24/ok.png) **Self-consistency**:  
+    - *Exemplo*: "Gere 5 soluções diferentes e escolha a mais comum."
+  - ![Tree of Thoughts](https://img.icons8.com/fluency/24/tree-structure.png) **Tree of Thoughts (ToT)**:  
+    - *Exemplo*: "Considere múltiplos caminhos para resolver o problema e escolha o melhor."
+  - ![ReAct](https://img.icons8.com/fluency/24/brainstorm-skill.png) **ReAct**:  
+    - *Exemplo*: "Pesquise na web antes de responder."
+  - ![APE](https://img.icons8.com/fluency/24/robot-2.png) **Automatic Prompt Engineering (APE)**:  
+    - *Exemplo*: "Gere automaticamente variações deste prompt e selecione a melhor."
+- 💻 **Prompting para Código**:
+  - **Escrita**:  
+    - *Exemplo*: "Escreva uma função Python que some dois números."
+  - **Explicação**:  
+    - *Exemplo*: "Explique o que este código faz: `for i in range(5): print(i)`"
+  - **Tradução**:  
+    - *Exemplo*: "Converta este código Python para JavaScript."
+  - **Depuração**:  
+    - *Exemplo*: "Encontre o erro neste código Python."
+- ⭐ **Boas Práticas**:
+  - Fornecer exemplos claros e diversos
+  - Design simples e específico
+  - Instruções positivas e restrições claras
+  - Controle do comprimento de tokens
+  - Uso de variáveis e formatos estruturados (JSON/XML)
+    - *Exemplo*: "Responda no formato JSON: { 'resposta': ... }"
+  - Uso de schemas para estruturar entradas/saídas
+  - Documentação e experimentação colaborativa
+  - Registro detalhado das tentativas e resultados
+
+---
+
 ## <span style="color:#9370DB">☁️ AWS para IA & ML</span>
 
 ### 🧰 <span style="color:#9370DB">Serviços de Preparação de Dados</span>
