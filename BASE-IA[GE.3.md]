@@ -1,0 +1,63 @@
+// ...código existente...
+
+---
+
+## <span style="color:#FF8C00">🛠️ Otimização da Engenharia de Prompt para LLMs</span>
+
+### 1️⃣ Configuração de Saída do LLM
+- 🧮 **Comprimento da Saída (Token Limit)**  
+  Define o número de tokens gerados.  
+  ⏳ Mais tokens = mais custo, tempo e energia.
+- 🎲 **Controles de Amostragem**  
+  - **Temperatura**: 🔥 Baixa = respostas determinísticas, Alta = criativas.
+  - **Top-K**: 🎯 Limita aos K tokens mais prováveis.
+  - **Top-P**: 📊 Limita à soma de probabilidades (núcleo).
+  - **Dica**: Para equilíbrio, use Temperatura 0.2, Top-P 0.95, Top-K 30.
+
+---
+
+### 2️⃣ Técnicas de Prompting
+- 🟢 **Zero-shot**: Só a tarefa, sem exemplos.
+- 🟡 **One-shot/Few-shot**: 1 ou alguns exemplos para guiar o modelo.
+- 🟠 **Prompting de Sistema/Contextual/Papel**:  
+  - Sistema: Define regras gerais.  
+  - Contextual: Detalhes específicos.  
+  - Papel: Dá personalidade ao modelo.
+- 🔄 **Step-back Prompting**:  
+  Pede para pensar em uma questão geral antes da específica.
+- 🧩 **Chain of Thought (CoT)**:  
+  Explicita o raciocínio passo a passo.
+- 🗳️ **Self-consistency**:  
+  Gera várias respostas e escolhe a mais comum.
+- 🌳 **Tree of Thoughts (ToT)**:  
+  Explora múltiplos caminhos de raciocínio.
+- 🤖 **ReAct**:  
+  Raciocina e executa ações externas (busca, código).
+- ⚙️ **APE (Automatic Prompt Engineering)**:  
+  Automatiza a criação de prompts.
+
+---
+
+### 3️⃣ Prompting para Código
+- 💻 **Escrita de Código**: Gera código em várias linguagens.
+- 📖 **Explicação de Código**: Explica trechos de código.
+- 🔄 **Tradução de Código**: Converte entre linguagens.
+- 🐞 **Depuração/Revisão**: Sugere correções e melhorias.
+
+---
+
+### 4️⃣ Práticas Recomendadas Gerais
+- 📝 **Forneça Exemplos**: Ensina o modelo pelo exemplo.
+- ✂️ **Design Simples**: Prompts claros e objetivos.
+- 🎯 **Especificidade**: Detalhe o que espera na saída.
+- 🚦 **Instruções Positivas**: Prefira dizer o que fazer.
+- ⏱️ **Controle de Tokens**: Limite o tamanho da resposta.
+- 🔄 **Variáveis em Prompts**: Torna prompts dinâmicos.
+- 🧪 **Teste Formatos e Estilos**: Experimente diferentes abordagens.
+- 🔄 **Adapte-se a Atualizações**: Ajuste conforme o modelo evolui.
+- 🗂️ **Documente Tentativas**: Registre o que funcionou.
+- 🤝 **Colabore**: Trabalhe com outros engenheiros de prompt.
+
+---
+
+### 🖼️ Exemplos Visuais

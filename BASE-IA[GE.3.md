@@ -208,6 +208,8 @@ search.searchOnType: true # Ativa a busca enquanto o usuário digita
 - **Certificações**:
   - 🏅 AWS Certified AI Practitioner (AIF-C01)  
   - 🏅 AWS Certified Machine Learning – Specialty  
+- **Livros de IA**:
+  - [Coleção de Livros de IA (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares/tree/main/15%20%5BIA%5D)  
 
 ---
 
