@@ -134,11 +134,19 @@ search.searchOnType: true
 ## 📚 Recursos de Estudo
 - [Trailhead - Salesforce AI](https://trailhead.salesforce.com)
 - [AWS AI & ML](https://aws.amazon.com/machine-learning/)
-- Certificações: AWS Certified AI Practitioner, Machine Learning – Specialty
+  
+
+  
+  
+## 📖 Livros IA GE
+  ![Livros IA GE](https://img.icons8.com/fluency/48/000000/books.png)  
+  - [Coleção de Livros de IA (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares/tree/main/15%20%5BIA%5D)
+  - [Repositório Completo de Livros (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares)
+  
 
 ---
 
-## 📖 Livros IA GE
+##   GE AWS - Mapas Mentais
 - [Coleção de Livros de IA (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares/tree/main/15%20%5BIA%5D)
 
 ---
@@ -149,41 +157,3 @@ search.searchOnType: true
 {
   "workbench.colorCustomizations": {
     "textPreformat.foreground": "#FF4500"
-  }
-}
-
----
-
-### 🖼️ Exemplos Visuais
-
-#### Exemplo 1: Zero-shot
-> **Prompt:**  
-> "Traduza para inglês: Olá, mundo!"  
-> **Saída esperada:**  
-> "Hello, world!"
-
-#### Exemplo 2: Few-shot
-> **Prompt:**  
-> Traduza para inglês:  
-> 'Bom dia' → 'Good morning'  
-> 'Boa tarde' → 'Good afternoon'  
-> Frase: 'Boa noite'  
-> **Saída esperada:**  
-> 'Good night'
-
-#### Exemplo 3: Chain of Thought (CoT)
-> **Prompt:**  
-> "Explique passo a passo como resolver 12 x 13."  
-> **Saída esperada:**  
-> "Primeiro, multiplique 10 x 13 = 130. Depois, 2 x 13 = 26. Some: 130 + 26 = 156."
-
-#### Exemplo 4: Prompting para Código
-> **Prompt:**  
-> "Escreva uma função Python que retorna o quadrado de um número."  
-> **Saída esperada:**  
-> ```python
-> def quadrado(x):
->     return x * x
-> ```
-
----
