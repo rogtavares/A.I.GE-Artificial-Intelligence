@@ -138,6 +138,13 @@ search.searchOnType: true
 
   
   
+## 📖 Livros IA GE
+![Livros IA GE](https://img.icons8.com/fluency/48/000000/books.png)  
+- [Coleção de Livros de IA (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares/tree/main/15%20%5BIA%5D)
+- [Repositório Completo de Livros (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares)
+
+---
+
 ## 🧠 IA Generativa: Fundamentos e Tecnologias-Chave
 
 - **Modelos Generativos**: Criam conteúdo novo (texto, imagem, áudio, vídeo).
@@ -226,12 +233,7 @@ search.searchOnType: true
 
 ---
 
-## 📖 Livros IA GE
-![Livros IA GE](https://img.icons8.com/fluency/48/000000/books.png)  
-- [Coleção de Livros de IA (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares/tree/main/15%20%5BIA%5D)
-- [Repositório Completo de Livros (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares)
+## GE AWS - Mapas Mentais
+[GE AWS - Mapas Mentais](https://rogtavares.github.io/AWS_getavares.github.io/)
 
 ---
-
-##   GE AWS - Mapas Mentais
-- [Coleção de Livros de IA (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares/tree/main/15%20%5BIA%5D)
