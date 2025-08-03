@@ -121,6 +121,7 @@ search.searchOnType: true
 6. Geração da resposta
 7. Processamento da resposta
 8. Resposta final ao usuário
+9. Feedback do usuário (opcional)
 
 ---
 
@@ -129,22 +130,8 @@ search.searchOnType: true
 - Ferramentas: SageMaker Clarify, Explainability, Model Monitor
 - Governança de IA
 
----
-
-## 📚 Recursos de Estudo
-- [Trailhead - Salesforce AI](https://trailhead.salesforce.com)
-- [AWS AI & ML](https://aws.amazon.com/machine-learning/)
-  
-
-  
-  
-## 📖 Livros IA GE
-![Livros IA GE](https://img.icons8.com/fluency/48/000000/books.png)  
-- [Coleção de Livros de IA (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares/tree/main/15%20%5BIA%5D)
-- [Repositório Completo de Livros (GeTavares)](https://github.com/rogtavares/LLIVROS_GeTavares)
-
----
-
+- **Avaliação de Viés**: Identificação e mitigação de viés em modelos
+- 
 ## 🧠 IA Generativa: Fundamentos e Tecnologias-Chave
 
 - **Modelos Generativos**: Criam conteúdo novo (texto, imagem, áudio, vídeo).
@@ -173,55 +160,19 @@ search.searchOnType: true
 - **Agentes do Bedrock**: Automatizam tarefas complexas.
 - **Bancos de dados de vetores**: OpenSearch, Aurora, Neptune, DocumentDB, RDS PostgreSQL.
 
-### ⚖️ Vantagens e Desvantagens
-
-- **Vantagens**: Adaptabilidade, simplicidade, capacidade de resposta.
-- **Desvantagens**: Alucinações, interpretabilidade limitada, imprecisão, não determinismo.
-- **Avaliação**: Métricas como ROUGE, BLEU, BERTScore.
-
----
-
-## 🤖 Princípios de ML e MLOps
-
-### 🧩 Conceitos de ML
-
-- **IA, ML, Deep Learning**: Deep Learning é um subconjunto de ML.
-- **Modelo, Algoritmo, Treinamento, Inferência**: Definições básicas.
-- **Inferência**: Em lote ou tempo real.
-- **Tipos de Dados**: Rotulados/não rotulados, tabulares, texto, imagem, etc.
-- **Aprendizado**: Supervisionado, não supervisionado, reforço.
-- **Técnicas**: Regressão, classificação, agrupamento.
-- **Métricas**: Acurácia, AUC, F1.
-
-### 🛠️ Casos de Uso
-
-- **Aplicações**: Visão computacional, PLN, reconhecimento de fala, recomendação, detecção de fraude, previsão.
-- **Quando usar IA/ML**: Valor agregado, automação, escalabilidade.
-- **Quando não usar**: Custo-benefício desfavorável, necessidade de resultado específico.
-
 ### ☁️ Serviços AWS para ML
 
 - **SageMaker**: Plataforma completa para ML.
-- **Transcribe, Translate, Comprehend, Lex, Polly**: Voz, tradução, PLN, chatbots, texto para fala.
-- **Rekognition, Textract, Fraud Detector, Kendra, Personalize**: Imagem, documentos, fraude, pesquisa, recomendação.
-
-### 🔄 MLOps: Ciclo de Vida do ML
-
-1. Coleta de Dados
-2. Análise Exploratória
-3. Pré-processamento
-4. Engenharia de Atributos
-5. Treinamento do Modelo
-6. Ajuste de Hiperparâmetros
-7. Avaliação
-8. Implantação
-9. Monitoramento
-
-#### Conceitos Fundamentais
-
-- **Experimentação, Processos Repetíveis, Sistemas Dimensionáveis**
-- **Gerenciamento de Dívidas Técnicas, Prontidão para Produção**
-- **Monitoramento e Retreinamento de Modelos**
+- **Transcribe**: Voz para texto.
+- **Translate**: Tradução de idiomas.
+- **Comprehend**: PLN para análise de texto.
+- **Lex**: Chatbots.
+- **Polly**: Texto para fala.
+- **Rekognition**: Imagem e vídeo.
+- **Textract**: Extração de texto de documentos.
+- **Fraud Detector**: Detecção de fraude.
+- **Kendra**: Pesquisa inteligente.
+- **Personalize**: Sistemas de recomendação.
 
 #### Serviços AWS para Pipeline de ML
 
@@ -242,5 +193,3 @@ search.searchOnType: true
 
 ## GE AWS - Mapas Mentais
 - [GE AWS - Mapas Mentais](https://rogtavares.github.io/AWS_getavares.github.io/)
-
----
