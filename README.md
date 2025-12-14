@@ -18,36 +18,36 @@ As informações fornecidas neste mapa são para fins educacionais e foram criad
 
 ### 🧠 Fundamentos
 - Conceitos fundamentais de IA (IA Fraca vs Forte, Tipos de IA)
-- Machine Learning (supervisionado, não supervisionado, reforço)
-- Deep Learning (CNNs, RNNs, Transformers, Attention)
+- Machine Learning (supervisionado, não supervisionado, com reforço)
+- Aprendizado profundo (CNNs, RNNs, Transformers, Atenção)
 - Pipeline completo de ML (dados → produção)
 
 ### 🚀 Tecnologias Modernas
 - IA Generativa e LLMs (GPT, Claude, Gemini, Titan)
 - Engenharia de Prompts (Zero-shot, Few-shot, Chain-of-Thought)
-- RAG (Retrieval-Augmented Generation)
+- RAG (Geração Aumentada por Recuperação)
 - MLOps e conceitos de produção
 
 ### 🎆 Tendências Emergentes
-- IA Multimodal e Foundation Models
-- Edge AI e Federated Learning
+- IA Multimodal e Modelos Fundamentais
+- IA de ponta e aprendizado federado
 - IA Explicável (XAI) e Responsável
-- Agentes de IA autônomos
+- Agentes de IAs
 
 ### ☁️ AWS para IA/ML
-- Amazon Bedrock e modelos de base
+- Amazon Bedrock e modelos básicos
 - SageMaker (Studio, AutoPilot, Clarify)
-- Serviços de IA (Rekognition, Comprehend, Transcribe)
+- Serviços de IA (Reconhecer, Compreender, Transcrever)
 - Governança e segurança (Config, CloudTrail, Inspector)
 
 ## 📊 Avaliação e Métricas
 - Métricas de classificação (Precisão, Recall, F1-Score, AUC-ROC)
 - Validação cruzada e técnicas de avaliação
-- Métricas específicas para NLP (BLEU, ROUGE)
+- Métricas específicas para PNL (BLEU, ROUGE)
 
-## ⚠️ Disclaimer
+## ⚠️ Isenção de responsabilidade
 
-Embora as referências tenham sido extraídas da documentação oficial da AWS e fontes acadêmicas confiáveis, este material **não substitui** os documentos oficiais. Use como complemento aos estudos e sempre consulte a documentação oficial para implementações em produção.
+Embora as referências tenham sido extraídas da documentação oficial da AWS e de fontes acadêmicas confiáveis, este material **não substitui** os documentos oficiais. Utilize como complemento aos estudos e sempre consulte a documentação oficial para implementações em produção.
 
 ## 🔗 Links Úteis
 
@@ -57,14 +57,12 @@ Embora as referências tenham sido extraídas da documentação oficial da AWS e
 
 ---
 
-## 👨‍💻 Autor
+## 👨💻 Autor
 
 **Gé Tavares** - Engenheiro de Software ITAU
-
-## 🌐 Hospedagem
-
-**GitHub Pages** - Hospedagem gratuita e confiável
+- [GitHub](https://github.com/rogtavares)
+- [LinkedIn](https://www.linkedin.com/in/rogtavares/)
 
 ---
 
-**v7** 🚀
+**v8** 🚀
