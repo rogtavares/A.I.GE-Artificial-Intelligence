@@ -30,6 +30,30 @@ search.searchOnType: true
 
 ---
 
+## <span style="color:#8A2BE2">🤖 IA Tradicional vs. Agentes de IA</span>
+
+### 🔄 **IA Tradicional**
+- **Modelo**: Você pergunta, ela responde
+- **Interação**: Um comando → Uma resposta
+- **Controle**: Humano define cada passo
+- **Limitação**: Ferramenta que executa instruções
+- 💡 **Frase-chave**: "Pergunta e resposta simples"
+
+### 🧠 **Agentes de IA**
+- **Modelo**: Você pede, eles pensam, planejam, agem e se adaptam
+- **Processo**: Objetivo → Planejamento → Execução → Adaptação
+- **Autonomia**: IA toma decisões até atingir o resultado
+- **Capacidade**: Assumem liderança com base em objetivos e situação
+- 💡 **Frase-chave**: "Pensam, planejam e agem autonomamente"
+
+### ⚠️ **O que Agentes de IA NÃO são**
+- **Não é agente**: Se você precisa instruir cada passo manualmente
+- **Verdadeiro agente**: IA toma decisões, não você
+- **Objetivo**: Você foca no panorama geral, IA cuida do processo
+- 💡 **Frase-chave**: "Quem decide é a IA, não você"
+
+---
+
 ## <span style="color:#000080">📊 Machine Learning (ML)</span>
 - **Definição**: Algoritmos que aprendem com dados  
 - 🔁 **Tipos de Aprendizado**:
@@ -41,6 +65,60 @@ search.searchOnType: true
   - *Engenharia de Atributos*, *Validação Cruzada*, *Otimização de Hiperparâmetros*, **MLOps**, **Data Lineage**
 - ⚖️ **Problemas Comuns**:
   - **Bias (Viés)**, **Imparcialidade**, **Overfitting**, **Underfitting**, **Explicabilidade**
+
+---
+
+## <span style="color:#228B22">🔄 Pipeline de Machine Learning</span>
+1. **Engenharia de Recursos** → Preparar, limpar e transformar dados
+2. **Treinamento** → Escolher algoritmo e treinar o modelo
+3. **Avaliação** → Medir precisão e desempenho do modelo
+4. **Monitoramento** → Acompanhar o modelo em produção
+- 💡 **Frase-chave**: "Do dado ao modelo em produção"
+
+### 🚀 **Treinamento × Inferência**
+- **Treinamento** → Aprende (ajusta pesos)
+- **Inferência** → Aplica (dados novos)
+- 💡 **Frase-chave**: "Treinamento aprende, inferência aplica"
+
+### ⚠️ **Problemas de Modelo**
+- **Subajuste** → Modelo simples, não aprende padrão
+- **Sobreajuste** → Aprende padrão + ruído (bom no treino, ruim em produção)
+- **Viés** → Discriminação por dados enviesados
+
+---
+
+## <span style="color:#4169E1">📊 Avaliação de Modelos</span>
+- **Matriz de Confusão** → Base (VP, VN, FP, FN)
+- **Acurácia** → % de acertos totais (use com dados balanceados)
+- **Recall** → Não perder positivos (fraude, saúde)
+- **F1-Score** → Equilíbrio FP × FN (classes desbalanceadas)
+- **Correlação** → Entender dados (EDA)
+
+### 📝 **Métricas NLP**
+- **BLEU** → Tradução automática
+- **ROUGE** → Resumo automático
+
+---
+
+## <span style="color:#8B4513">📈 Modelos Clássicos de ML</span>
+
+### 🟢 **Regressão Linear**
+- **Tipo**: Aprendizado supervisionado
+- **Uso**: Previsões numéricas
+- **Característica**: Alta interpretabilidade
+- 💡 **Frase-chave**: "Coeficientes explicam o impacto das variáveis"
+
+### 🟢 **K-Nearest Neighbors (KNN)**
+- **Tipo**: Aprendizado supervisionado
+- **Função**: Classifica com base nos vizinhos mais próximos
+- **Casos**: Classificação simples, recomendação básica
+- 💡 **Frase-chave**: "Decide com base nos vizinhos"
+
+### 🔵 **K-Means**
+- **Tipo**: Aprendizado não supervisionado
+- **Função**: Agrupa dados em clusters por similaridade
+- **Casos**: Segmentação de clientes, agrupamento de dados
+- 💡 **Frase-chave**: "Agrupa dados sem rótulos"
 
 ---
 
@@ -62,6 +140,35 @@ search.searchOnType: true
 ### 🧩 <span style="color:#FF8C00">Engenharia de Prompt em LLMs</span>
 - **Técnicas**: Zero-shot, One-shot, Few-shot, Chain of Thought, ReAct, APE, etc.
 - **Boas Práticas**: Exemplos claros, design simples, instruções positivas, formatos estruturados
+
+### 🧠 **Aprendizado por Prompt (Tradicional)**
+- **Zero-shot** → Nenhum exemplo, apenas a instrução
+- **One-shot (Single-shot)** → Um único exemplo antes da tarefa
+- **Few-shot** → Poucos exemplos (2 a ~10) para guiar o modelo
+
+### 🔗 **Prompts de Cadeia de Pensamento (Chain-of-Thought)**
+- **Definição**: Prompts que solicitam raciocínio passo a passo
+- **Objetivo**: Melhorar tarefas de lógica, matemática e raciocínio complexo
+- **Benefício**: Respostas mais corretas e explicáveis
+- 💡 **Frase-chave**: "Modelo explicita o raciocínio antes da resposta final"
+
+### 🧪 **Estereotipagem de Prompt (Prompt Stereotyping)**
+- **Definição**: Avaliação da probabilidade de um FM codificar viéses
+- **Objetivo**: Identificar estereótipos e discriminação gerados pelo modelo
+- **Contexto AWS**: Avaliação de viés e IA responsável
+- 💡 **Frase-chave**: "Testa se o FM responde de forma enviesada"
+
+### 🧠 **Robustez Semântica**
+- **Métrica**: Quanto a saída de um LLM muda após pequenas variações na entrada
+- **Condição**: Variações preservam o significado (semântica)
+- **Objetivo**: Garantir estabilidade e confiabilidade do modelo
+- 💡 **Frase-chave**: "Mesma ideia, mesma resposta"
+
+### 🧩 **Embeddings / RAG / Bedrock**
+- **Embeddings** → Vetores que representam significado
+- **RAG** → Busca contexto + LLM gera resposta
+- **Fluxo RAG**: Pergunta → Embedding → Busca vetorial → Contexto → LLM
+- **AWS**: Amazon Bedrock + Titan Embeddings
 
 ---
 
@@ -156,7 +263,13 @@ search.searchOnType: true
 - **Amazon SageMaker JumpStart**: Modelos pré-treinados e soluções ML.
 - **Amazon Bedrock**: Modelos de base de várias empresas, personalização e geração.
 - **PartyRock**: Playground para experimentação com modelos de base.
-- **Amazon Q**: Assistente de IA para trabalho.
+- **Amazon Q**: Assistente de IA generativo para trabalho
+  - **Capacidades**: Gera conteúdo, resolve problemas, executa tarefas
+  - **Dados**: Usa dados e experiência da empresa
+  - **Objetivo**: Respostas rápidas, simplifica tarefas, agiliza decisões
+  - **Integração QuickSight**: Combina dados estruturados + não estruturados
+  - **Exemplo**: "Qual é nossa tendência de receita e sua narrativa?"
+  - 💡 **Frase-chave**: "IA generativa para produtividade empresarial"
 - **Agentes do Bedrock**: Automatizam tarefas complexas.
 - **Bancos de dados de vetores**: OpenSearch, Aurora, Neptune, DocumentDB, RDS PostgreSQL.
 
@@ -181,6 +294,22 @@ search.searchOnType: true
 - **SageMaker Model Monitor**: Monitoramento em produção.
 - **SageMaker Clarify**: Detecção de viés e explicabilidade.
 - **Amazon Augmented AI (A2I)**: Revisão humana em ML.
+
+---
+
+## <span style="color:#B22222">☁️ Governança, Auditoria e Segurança (AWS)</span>
+
+### 🔍 **Monitoramento e Conformidade**
+- **AWS Config** → Monitoramento de configurações e conformidade de recursos
+- **AWS Audit Manager** → Auditoria contínua e automatizada
+- **AWS Artifact** → Acesso a relatórios de conformidade e certificações
+- **AWS CloudTrail** → Auditoria, governança e conformidade operacional
+  - Registra chamadas de API e atividades na conta
+
+### 🔒 **Segurança e Otimização**
+- **Amazon Inspector** → Avaliação automática de segurança e vulnerabilidades
+- **AWS Trusted Advisor** → Boas práticas: custo, segurança, desempenho e confiabilidade
+- 💡 **Frase-chave**: "Governança e conformidade na AWS"
 
 ---
 
