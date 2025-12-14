@@ -22,11 +22,18 @@ search.searchOnType: true
 ## 🧠 Conceitos Fundamentais
 - **IA**: Sistemas que simulam a inteligência humana  
   - *Computação Cognitiva*, *Sistemas Especialistas*, *Robótica*
-- ⚙️ **Tipos**:
-  - **Reativa** → Responde a estímulos imediatos  
-  - **Limitada** → Memória limitada para decisões  
-  - **Teoria da Mente** → Compreensão de emoções e intenções  
-  - **Autoconsciente** → Consciência própria e aprendizado avançado  
+
+### 🎯 **IA Fraca vs IA Forte**
+- **IA Fraca (Narrow AI)** → Especializada em tarefas específicas (ex: Siri, AlphaGo)
+- **IA Forte (AGI)** → Inteligência geral como humanos (ainda não existe)
+- **Teste de Turing** → Marco para avaliar inteligência artificial
+- 💡 **Frase-chave**: "Especialista vs Generalista"
+
+### ⚙️ **Tipos de IA (Russell & Norvig)**
+- **Reativa** → Responde a estímulos imediatos (ex: Deep Blue)
+- **Limitada** → Memória limitada para decisões (ex: carros autônomos)
+- **Teoria da Mente** → Compreensão de emoções e intenções (em desenvolvimento)
+- **Autoconsciente** → Consciência própria e aprendizado avançado (conceitual)  
 
 ---
 
@@ -87,12 +94,43 @@ search.searchOnType: true
 
 ---
 
+## <span style="color:#FF6347">🚀 MLOps e Conceitos Modernos</span>
+
+### 🔄 **MLOps (Machine Learning Operations)**
+- **CI/CD para ML** → Integração e deploy contínuo
+- **Model Versioning** → Controle de versão de modelos
+- **Monitoring** → Acompanhamento em produção
+- **Rollback** → Reversão rápida de modelos
+- 💡 **Frase-chave**: "DevOps para Machine Learning"
+
+### 📈 **Drift e Degradação**
+- **Data Drift** → Mudança na distribuição dos dados de entrada
+- **Model Drift** → Degradação da performance do modelo
+- **Concept Drift** → Mudança na relação entrada-saída
+- 💡 **Frase-chave**: "Modelos envelhecem, dados mudam"
+
+### 🎯 **Otimização e Engenharia**
+- **Hyperparameter Tuning** → Otimização de hiperparâmetros
+- **Feature Engineering** → Criação e seleção de atributos
+- **AutoML** → Automatização do pipeline de ML
+- **A/B Testing** → Testes comparativos de modelos
+
+---
+
 ## <span style="color:#4169E1">📊 Avaliação de Modelos</span>
+
+### 🎯 **Métricas de Classificação**
 - **Matriz de Confusão** → Base (VP, VN, FP, FN)
-- **Acurácia** → % de acertos totais (use com dados balanceados)
-- **Recall** → Não perder positivos (fraude, saúde)
-- **F1-Score** → Equilíbrio FP × FN (classes desbalanceadas)
+- **Acurácia** → % de acertos totais (dados balanceados)
+- **Precisão** → VP/(VP+FP) - evita falsos positivos
+- **Recall** → VP/(VP+FN) - não perde positivos (fraude, saúde)
+- **F1-Score** → Média harmônica Precisão × Recall
+- **AUC-ROC** → Área sob a curva (0.5-1.0)
+
+### 🔄 **Validação e Análise**
+- **Cross-Validation** → Validação cruzada (k-fold)
 - **Correlação** → Entender dados (EDA)
+- 💡 **Frase-chave**: "Medir para melhorar"
 
 ### 📝 **Métricas NLP**
 - **BLEU** → Tradução automática
@@ -123,10 +161,19 @@ search.searchOnType: true
 ---
 
 ## <span style="color:#FF4500">🧠 Deep Learning (DL)</span>
-- **Redes Neurais**: CNNs, RNNs
+
+### 🧠 **Arquiteturas de Redes Neurais**
+- **CNNs** → Visão computacional (convolução)
+- **RNNs** → Sequências (LSTM, GRU)
+- **Transformers** → Atenção e paralelização
+- **Attention Mechanism** → Foco em partes relevantes
+
+### 🔧 **Frameworks e Técnicas**
 - **Frameworks**: TensorFlow, PyTorch, Keras
-- **Aplicações**: NLP, Visão Computacional, Tradução Automática
-- **Embeddings**, **Context Window**
+- **Transfer Learning** → Reutilização de modelos pré-treinados
+- **Embeddings** → Representações vetoriais densas
+- **Context Window** → Janela de contexto para processamento
+- 💡 **Frase-chave**: "Redes profundas aprendem representações"
 
 ---
 
@@ -169,6 +216,29 @@ search.searchOnType: true
 - **RAG** → Busca contexto + LLM gera resposta
 - **Fluxo RAG**: Pergunta → Embedding → Busca vetorial → Contexto → LLM
 - **AWS**: Amazon Bedrock + Titan Embeddings
+
+---
+
+## <span style="color:#FF1493">🎆 Tendências e Tecnologias Emergentes</span>
+
+### 🌍 **IA Multimodal e Foundation Models**
+- **Multimodal AI** → Processa texto, imagem, áudio, vídeo simultaneamente
+- **Foundation Models** → Modelos base grandes e generalistas
+- **Vision-Language Models** → Combina visão e linguagem (CLIP, DALL-E)
+- 💡 **Frase-chave**: "Uma IA, múltiplas modalidades"
+
+### ⚡ **Edge AI e Computação Distribuída**
+- **Edge AI** → IA executada em dispositivos locais
+- **Federated Learning** → Treinamento distribuído sem centralizar dados
+- **Model Compression** → Quantização e poda para dispositivos móveis
+- **TinyML** → ML para microcontroladores
+- 💡 **Frase-chave**: "IA na borda, privacidade no centro"
+
+### 🔮 **IA Explicável e Responsável**
+- **XAI (Explainable AI)** → IA que explica suas decisões
+- **Fairness** → Equidade e justiça nos algoritmos
+- **Privacy-Preserving ML** → ML que preserva privacidade
+- **Differential Privacy** → Privacidade matemática garantida
 
 ---
 
