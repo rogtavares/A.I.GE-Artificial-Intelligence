@@ -57,4 +57,14 @@ Embora as referências tenham sido extraídas da documentação oficial da AWS e
 
 ---
 
-**Ge Tavares, v6** 🚀
+## 👨‍💻 Autor
+
+**Gé Tavares** - Engenheiro de Software ITAU
+
+## 🌐 Hospedagem
+
+**GitHub Pages** - Hospedagem gratuita e confiável
+
+---
+
+**v7** 🚀
