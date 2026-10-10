@@ -1,0 +1,11 @@
+{
+  "name": "ge-artificial-intelligence",
+  "private": true,
+  "description": "Mapa mental de Inteligência Artificial (markmap)",
+  "scripts": {
+    "build": "markmap mapa-ia.md --no-open -o index.html && node scripts/set-title.js"
+  },
+  "devDependencies": {
+    "markmap-cli": "0.18.12"
+  }
+}

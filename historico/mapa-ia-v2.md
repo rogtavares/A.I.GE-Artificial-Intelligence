@@ -1,8 +1,12 @@
 
 ---
-title: markmap
+title: GE Tavares - Mapa de IA (versão 2, histórico)
 markmap:
-  colorFreezeLevel: 8 
+  colorFreezeLevel: 8
+---
+
+> ⚠️ Versão histórica. A versão atual está em [mapa-ia.md](../mapa-ia.md).
+
 # **GE-Artificial-Intelligence (IA)**
 
 
@@ -174,7 +178,7 @@ Criar bons prompts é essencial para extrair o máximo da IA. Aqui entra o méto
         - Modelo multimodal de baixo custo e extremamente rápido para processar entradas de texto, imagem e vídeo
       - 12.2.1.3 **Amazon Nova Pro** 
          - Modelo multimodal de alta capacidade que combina precisão, velocidade e custo para uma ampla gama de tarefas 
-      - 12.2.1.4 **Amazon Nova Premier** **(será lançado no primeiro trimestre de 2025)**
+      - 12.2.1.4 **Amazon Nova Premier** (lançado em 2025)
          - o modelo multimodal mais avançado, ideal para tarefas complexas e para desenvolvimento de modelos personalizados
      - **((dois modelos para atividades específicas))**
        - 12.2.1.5 **Amazon Nova Canvas** 
@@ -188,12 +192,14 @@ Criar bons prompts é essencial para extrair o máximo da IA. Aqui entra o méto
 
 ### 12.4 AWS DeepLens  
 - Câmera para implementar modelos de visão computacional.  
+- ⚠️ **Descontinuado** (fim de vida em 2024).  
 
 ### 12.5 Amazon Fraud Detector  
 - Detecção de fraudes online com ML.  
 
 ### 12.6 Amazon Forecast  
 - Previsão de resultados de negócios usando ML.  
+- ⚠️ **Fechado a novos clientes** (alternativa: SageMaker Canvas).  
 
 ### 12.7 AWS Glue DataBrew  
 - Limpeza e transformação de dados para análises e ML.  

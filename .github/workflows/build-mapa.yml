@@ -1,0 +1,43 @@
+# Gera o index.html a partir do mapa-ia.md com markmap-cli.
+# Em pull requests: só valida que o build funciona.
+# No master: se o index.html mudou, faz commit dele (o GitHub Pages publica a partir do master).
+name: Build do Mapa Mental
+
+on:
+  push:
+    branches: [master]
+    paths: [mapa-ia.md, package.json, package-lock.json, 'scripts/**', .github/workflows/build-mapa.yml]
+  pull_request:
+    paths: [mapa-ia.md, package.json, package-lock.json, 'scripts/**', .github/workflows/build-mapa.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Commit do index.html atualizado
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet -- index.html; then
+            echo "index.html já está atualizado."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "build: regenera index.html a partir do mapa-ia.md"
+          git push
