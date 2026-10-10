@@ -8,6 +8,7 @@ Este repositório contém um **mapa mental abrangente sobre Inteligência Artifi
 
 As informações fornecidas neste mapa são para fins educacionais e foram criadas para ajudar:
 
+- **Qualquer pessoa**, sem conhecimento técnico, que quer começar a usar IA no dia a dia, nos estudos ou no trabalho
 - **Desenvolvedores** interessados em ganhar experiência prática com IA generativa e AWS
 - **Cientistas de dados** e engenheiros de ML explorando serviços AWS para desenvolvimento de IA
 - **Profissionais de TI** que buscam expandir conhecimentos em tecnologias de IA na nuvem
@@ -15,6 +16,14 @@ As informações fornecidas neste mapa são para fins educacionais e foram criad
 - **Candidatos a certificações AWS** em Machine Learning e IA
 
 ## 📋 Conteúdo Abordado
+
+### 🚪 IA para Todos (comece aqui)
+- O que a IA faz bem e o que não faz
+- Ferramentas gratuitas e usos por necessidade (estudo, trabalho, pequeno negócio, dia a dia)
+- IA e acessibilidade (descrição de imagens, legendas, Libras)
+- Como pedir bem: fórmula de prompt em 4 partes
+- Uso seguro: dados pessoais, golpes com deepfake, LGPD
+- Glossário simples e trilha de aprendizado gratuita (iniciante → avançado)
 
 ### 🧠 Fundamentos
 - Conceitos fundamentais de IA (IA Fraca vs Forte, Tipos de IA)
@@ -85,4 +94,4 @@ Embora as referências tenham sido extraídas da documentação oficial da AWS e
 
 ---
 
-**v9** 🚀
+**v10** 🚀

@@ -11,6 +11,119 @@ markmap:
 
 # <span style="color:#1E3A8A">🤖 GE-Artificial-Intelligence (IA)</span>
 
+## <span style="color:#0EA5E9">🚪 Comece Aqui: IA para Todos</span>
+- **O que é IA, em uma frase**: Programas que aprendem com exemplos para conversar, escrever, resumir, traduzir, ver e ouvir
+- **Você já usa IA**: Corretor do celular, GPS, filtro de spam, recomendações de vídeo, legendas automáticas
+- **Não precisa saber programar** → Basta saber explicar o que você quer, em português
+- 💡 **Frase-chave**: "IA é uma ferramenta: quem usa bem é quem pergunta bem"
+
+### ✅ **O que a IA faz bem**
+- Escrever e revisar textos (e-mails, currículos, mensagens)
+- Resumir documentos longos e explicar assuntos difíceis com palavras simples
+- Traduzir e adaptar textos para outro público
+- Gerar ideias, roteiros, planos de estudo e listas
+- Ajudar com planilhas, fórmulas e programação
+
+### ⚠️ **O que a IA NÃO faz bem**
+- **Garantir a verdade** → Pode inventar fatos com confiança ("alucinação")
+- **Saber de tudo que é recente** → Conhecimento tem data de corte (a não ser que pesquise na web)
+- **Substituir profissionais** → Médico, advogado, contador: use para entender, não para decidir sozinho
+- **Contas exatas sem ferramenta** → Confira números importantes
+- 💡 **Frase-chave**: "Confie, mas confira"
+
+---
+
+## <span style="color:#16A34A">🆓 IA Gratuita para Usar Hoje</span>
+
+### 💬 **Assistentes de Conversa (todos com plano gratuito)**
+- **ChatGPT** (OpenAI), **Claude** (Anthropic), **Gemini** (Google)
+- **Microsoft Copilot**, **Meta AI** (dentro do WhatsApp e Instagram)
+- **Perplexity** → Respostas com links das fontes
+- **Como começar**: Abra no navegador ou baixe o app, crie uma conta e escreva sua pergunta
+
+### 🎒 **Por Necessidade**
+- **Estudar** → Peça explicações "como para um iniciante" e exercícios com correção
+- **Trabalhar** → E-mails, atas de reunião, relatórios, planilhas
+- **Empreender (MEI/pequeno negócio)** → Posts para redes sociais, descrição de produtos, atendimento
+- **Buscar emprego** → Revisar currículo, simular entrevista
+- **Dia a dia** → Receitas com o que tem em casa, organizar orçamento, planejar viagem
+
+### ♿ **IA e Acessibilidade**
+- **Descrição de imagens** para pessoas cegas ou com baixa visão (ex: Be My Eyes)
+- **Legendas e transcrição** automáticas para pessoas surdas
+- **Libras** → Tradução de português para Libras (ex: Hand Talk)
+- **Leitura em voz alta** e **ditado por voz** para quem tem dificuldade de leitura ou escrita
+- 💡 **Frase-chave**: "IA que inclui"
+
+---
+
+## <span style="color:#CA8A04">✍️ Como Pedir Bem (Prompt Simples)</span>
+
+### 🧩 **Fórmula em 4 Partes**
+- 1️⃣ **Papel** → "Aja como um professor de matemática..."
+- 2️⃣ **Tarefa** → "...explique frações..."
+- 3️⃣ **Contexto** → "...para meu filho de 10 anos que tem dificuldade..."
+- 4️⃣ **Formato** → "...em 5 passos curtos, com um exemplo de pizza."
+- 💡 **Frase-chave**: "Quanto mais contexto, melhor a resposta"
+
+### 🔁 **Dicas Práticas**
+- **Converse** → Se não gostou, peça ajustes: "mais curto", "mais formal", "dê outro exemplo"
+- **Dê exemplos** do que você espera
+- **Peça para perguntar**: "Antes de responder, me faça as perguntas que precisar"
+- **Peça fontes** e confira os links
+- **Divida tarefas grandes** em etapas
+
+---
+
+## <span style="color:#DC2626">🛡️ Use IA com Segurança</span>
+- 🔒 **Não compartilhe**: Senhas, números de cartão, documentos pessoais, dados de saúde ou de clientes
+- 🔍 **Confira informações** importantes em fontes oficiais
+- 🎭 **Cuidado com golpes**: Vozes e vídeos falsos (deepfakes) imitando parentes ou famosos
+  - Desconfie de pedidos urgentes de dinheiro; ligue de volta para confirmar
+- 🏫 **Escola e trabalho**: Siga as regras do lugar e diga quando usou IA
+- ⚖️ **Direitos**: A **LGPD** protege seus dados pessoais no Brasil
+  - Marco legal da IA no Brasil (PL 2338/2023) em tramitação; na Europa vale o **AI Act**
+- 💡 **Frase-chave**: "Seus dados valem ouro: proteja-os"
+
+---
+
+## <span style="color:#7C3AED">📚 Glossário Simples</span>
+- **Modelo** → O "cérebro" treinado da IA
+- **LLM** → Modelo de linguagem grande, que entende e escreve textos (ex: GPT, Claude, Gemini)
+- **Prompt** → O pedido ou pergunta que você escreve para a IA
+- **Token** → Pedacinho de texto que a IA lê e escreve (mais ou menos ¾ de uma palavra)
+- **Alucinação** → Quando a IA inventa algo que parece verdade
+- **Chatbot** → Programa que conversa com você
+- **Agente** → IA que, além de responder, executa tarefas sozinha
+- **Treinamento** → Fase em que a IA aprende com muitos exemplos
+- **Viés** → Preconceito que a IA herda dos dados
+- **Deepfake** → Vídeo, foto ou voz falsos gerados por IA
+- **IA Generativa** → IA que cria conteúdo novo (texto, imagem, música, vídeo)
+
+---
+
+## <span style="color:#0891B2">🎓 Trilha de Aprendizado Gratuita</span>
+
+### 🌱 **Nível 1: Iniciante (sem programação)**
+- **Elements of AI** (Universidade de Helsinque) → Curso online gratuito de introdução
+- **AI for Everyone** (DeepLearning.AI, Coursera) → Conceitos para não técnicos
+- **AI Fluency** (Anthropic Academy) → Como trabalhar bem com IA no dia a dia
+- **Prática** → Use um assistente gratuito todos os dias por 15 minutos
+
+### 🌿 **Nível 2: Intermediário (profissional)**
+- **AWS Skill Builder** → Trilhas gratuitas de IA generativa e preparação para a **AWS Certified AI Practitioner**
+- **Microsoft Learn** → Trilha gratuita da certificação **AI-900**
+- **Google Cloud Skills Boost** → "Introduction to Generative AI" (gratuito)
+- **Prática** → Automatizar uma tarefa real do seu trabalho
+
+### 🌳 **Nível 3: Avançado (técnico)**
+- **Python** + **fast.ai** (Practical Deep Learning, gratuito)
+- **Hugging Face Learn** → Cursos gratuitos de LLMs e agentes
+- **Projetos** → Montar um RAG, criar um agente, publicar no GitHub
+- 💡 **Frase-chave**: "Aprender fazendo, um degrau por vez"
+
+---
+
 ## 🧠 Conceitos Fundamentais
 - **IA**: Sistemas que simulam a inteligência humana
   - *Computação Cognitiva*, *Sistemas Especialistas*, *Robótica*
@@ -97,12 +210,12 @@ markmap:
 ---
 
 ## <span style="color:#228B22">🔄 Pipeline de Machine Learning</span>
-1. **Coleta e Preparação de Dados** → Limpar, rotular e transformar dados
-2. **Engenharia de Atributos** → Criar e selecionar features
-3. **Treinamento** → Escolher algoritmo e treinar o modelo
-4. **Avaliação** → Medir precisão e desempenho do modelo
-5. **Deploy** → Disponibilizar o modelo (endpoint, batch)
-6. **Monitoramento** → Acompanhar o modelo em produção
+- 1️⃣ **Coleta e Preparação de Dados** → Limpar, rotular e transformar dados
+- 2️⃣ **Engenharia de Atributos** → Criar e selecionar features
+- 3️⃣ **Treinamento** → Escolher algoritmo e treinar o modelo
+- 4️⃣ **Avaliação** → Medir precisão e desempenho do modelo
+- 5️⃣ **Deploy** → Disponibilizar o modelo (endpoint, batch)
+- 6️⃣ **Monitoramento** → Acompanhar o modelo em produção
 - 💡 **Frase-chave**: "Do dado ao modelo em produção"
 
 ### 🚀 **Treinamento × Inferência**
@@ -221,11 +334,11 @@ markmap:
 7. **Implantação e Feedback** → Deploy (ex: AWS), monitoramento e melhoria contínua
 
 ### 🎚️ **Como Customizar um FM (do mais simples ao mais caro)**
-1. **Engenharia de Prompt** → Sem alterar o modelo, resultado imediato
-2. **RAG** → Conecta o modelo a bases externas atualizadas
-3. **Fine-Tuning** → Ajusta pesos com dados rotulados
-4. **Continued Pre-Training** → Ajusta pesos com grande volume de dados do domínio
-5. **Treinar do zero** → Controle total, custo altíssimo
+- 1️⃣ **Engenharia de Prompt** → Sem alterar o modelo, resultado imediato
+- 2️⃣ **RAG** → Conecta o modelo a bases externas atualizadas
+- 3️⃣ **Fine-Tuning** → Ajusta pesos com dados rotulados
+- 4️⃣ **Continued Pre-Training** → Ajusta pesos com grande volume de dados do domínio
+- 5️⃣ **Treinar do zero** → Controle total, custo altíssimo
 - **Modelos Open Source vs. Proprietários**: Avaliar custo, modalidade, latência, suporte, personalização
 - 💡 **Frase-chave**: "Comece pelo prompt, só treine se precisar"
 
