@@ -23,27 +23,47 @@ As informações fornecidas neste mapa são para fins educacionais e foram criad
 - Pipeline completo de ML (dados → produção)
 
 ### 🚀 Tecnologias Modernas
-- IA Generativa e LLMs (GPT, Claude, Gemini, Titan)
-- Engenharia de Prompts (Zero-shot, Few-shot, Chain-of-Thought)
-- RAG (Geração Aumentada por Recuperação)
-- MLOps e conceitos de produção
+- IA Generativa e LLMs (GPT, Claude, Gemini, Llama, Amazon Nova)
+- Modelos de raciocínio e ciclo de vida de Foundation Models
+- Engenharia de Prompts (Zero-shot, Few-shot, Chain-of-Thought, ReAct, Tree of Thoughts)
+- RAG (Geração Aumentada por Recuperação) e bancos vetoriais
+- MLOps e LLMOps
+
+### 🤖 Agentes de IA
+- Padrões de agentes (ReAct, tool use, multiagente, human-in-the-loop)
+- Protocolos MCP e A2A, frameworks de agentes
 
 ### 🎆 Tendências Emergentes
-- IA Multimodal e Modelos Fundamentais
-- IA de ponta e aprendizado federado
-- IA Explicável (XAI) e Responsável
-- Agentes de IAs
+- IA Multimodal, IA Agêntica e modelos pequenos (SLMs)
+- Edge AI e aprendizado federado
+- IA Responsável e segurança em LLMs (prompt injection, OWASP Top 10 para LLM)
 
 ### ☁️ AWS para IA/ML
-- Amazon Bedrock e modelos básicos
-- SageMaker (Studio, AutoPilot, Clarify)
-- Serviços de IA (Reconhecer, Compreender, Transcrever)
-- Governança e segurança (Config, CloudTrail, Inspector)
+- Amazon Bedrock (Knowledge Bases, Agents, Guardrails, AgentCore) e Amazon Nova
+- SageMaker AI (Studio, Canvas, Clarify, Model Monitor)
+- Serviços de IA (Rekognition, Comprehend, Transcribe, Textract...)
+- Serviços descontinuados, governança e segurança (Config, CloudTrail, IAM, Macie)
 
 ## 📊 Avaliação e Métricas
 - Métricas de classificação (Precisão, Recall, F1-Score, AUC-ROC)
 - Validação cruzada e técnicas de avaliação
-- Métricas específicas para PNL (BLEU, ROUGE)
+- Métricas de regressão (MAE, RMSE, R²)
+- Métricas de NLP e LLMs (BLEU, ROUGE, BERTScore, LLM-as-a-Judge)
+
+## 🗂️ Estrutura do Repositório
+
+| Arquivo | Descrição |
+|---|---|
+| `mapa-ia.md` | Mapa mental principal (fonte em Markdown) |
+| `index.html` | Mapa renderizado (gerado automaticamente, publicado no GitHub Pages) |
+| `historico/mapa-ia-v2.md` | Versão anterior do mapa, mantida como histórico |
+| `GE Tavares -Artificial-Intelligence (IA).pdf` | Versão em PDF |
+
+## 🛠️ Como Editar
+
+1. Edite o `mapa-ia.md`.
+2. Para ver o resultado localmente: `npm install` e depois `npm run build` (gera o `index.html`).
+3. Ao fazer push no `master`, o GitHub Actions regenera o `index.html` automaticamente.
 
 ## ⚠️ Isenção de responsabilidade
 
@@ -65,4 +85,4 @@ Embora as referências tenham sido extraídas da documentação oficial da AWS e
 
 ---
 
-**v8** 🚀
+**v9** 🚀
