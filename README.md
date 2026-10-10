@@ -26,20 +26,23 @@ As informações fornecidas neste mapa são para fins educacionais e foram criad
 - Glossário simples e trilha de aprendizado gratuita (iniciante → avançado)
 
 ### 🧠 Fundamentos
-- Conceitos fundamentais de IA (IA Fraca vs Forte, Tipos de IA)
-- Machine Learning (supervisionado, não supervisionado, com reforço)
-- Aprendizado profundo (CNNs, RNNs, Transformers, Atenção)
-- Pipeline completo de ML (dados → produção)
+- Linha do tempo da IA, abordagens (simbólica × conexionista) e grandes áreas
+- Machine Learning: tipos de aprendizado, preparação de dados, viés × variância, modelos clássicos e ensembles
+- Deep Learning: como uma rede neural aprende, hiperparâmetros, arquiteturas e o Transformer por dentro
+- Pipeline completo de ML (problema → dados → produção) e tipos de inferência
 
 ### 🚀 Tecnologias Modernas
 - IA Generativa e LLMs (GPT, Claude, Gemini, Llama, Amazon Nova)
 - Modelos de raciocínio e ciclo de vida de Foundation Models
 - Engenharia de Prompts (Zero-shot, Few-shot, Chain-of-Thought, ReAct, Tree of Thoughts)
 - RAG (Geração Aumentada por Recuperação) e bancos vetoriais
-- MLOps e LLMOps
+- MLOps (maturidade, estratégias de deploy, drift) e LLMOps (custo, cache, roteamento)
+- Fine-tuning eficiente (LoRA, QLoRA), quantização e destilação
+- Engenharia de contexto
 
 ### 🤖 Agentes de IA
-- Padrões de agentes (ReAct, tool use, multiagente, human-in-the-loop)
+- Anatomia de um agente, workflow × agente e padrões (ReAct, tool use, multiagente, human-in-the-loop)
+- Riscos e boas práticas de agentes
 - Protocolos MCP e A2A, frameworks de agentes
 
 ### 🎆 Tendências Emergentes
@@ -51,13 +54,15 @@ As informações fornecidas neste mapa são para fins educacionais e foram criad
 - Amazon Bedrock (Knowledge Bases, Agents, Guardrails, AgentCore) e Amazon Nova
 - SageMaker AI (Studio, Canvas, Clarify, Model Monitor)
 - Serviços de IA (Rekognition, Comprehend, Transcribe, Textract...)
-- Serviços descontinuados, governança e segurança (Config, CloudTrail, IAM, Macie)
+- Stack de IA da AWS em 3 camadas e guia "qual serviço usar?"
+- Certificações AWS de IA, responsabilidade compartilhada, governança e segurança
 
 ## 📊 Avaliação e Métricas
 - Métricas de classificação (Precisão, Recall, F1-Score, AUC-ROC)
 - Validação cruzada e técnicas de avaliação
 - Métricas de regressão (MAE, RMSE, R²)
 - Métricas de NLP e LLMs (BLEU, ROUGE, BERTScore, LLM-as-a-Judge)
+- Métricas de RAG, benchmarks de LLMs e métricas de negócio
 
 ## 🗂️ Estrutura do Repositório
 
@@ -94,4 +99,4 @@ Embora as referências tenham sido extraídas da documentação oficial da AWS e
 
 ---
 
-**v10** 🚀
+**v11** 🚀
